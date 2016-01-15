@@ -1,11 +1,11 @@
 package org.usfirst.frc.team1885.gui.test;
 
+import org.usfirst.frc.team1885.gui.widget.voltometer.Voltometer;
+
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.layout.HBox;
 import javafx.stage.Stage;
-
-import org.usfirst.frc.team1885.gui.widget.toggleSwitch.ToggleSwitch;
 
 public class AppMain extends Application {
 
@@ -14,9 +14,11 @@ public class AppMain extends Application {
 		Scene scene = new Scene(hbox);
 		stage.setScene(scene);
 
-		for(int i = 0; i < 10; i++){
-			hbox.getChildren().add(new ToggleSwitch("LS" + i, "Limit Switch Number " + i));
-		}
+//		for(int i = 0; i < 10; i++){
+//			hbox.getChildren().add(new ToggleSwitch("LS" + i, "Limit Switch Number " + i));
+//		}
+		
+		hbox.getChildren().add(new Voltometer(0)); 
 		
 		stage.show();
 	}
