@@ -8,10 +8,17 @@ import javafx.scene.control.Control;
 import javafx.scene.control.Skin;
 
 public class Voltometer extends Control{
-	private FloatProperty voltageProperty; 
+	private FloatProperty voltageProperty;  
 	
 	public Voltometer( float startVolt ) {
 		voltageProperty = new SimpleFloatProperty(startVolt); 
+		
+		setOnSwipeLeft(observable -> { 
+			setVoltage(getVoltage() -1);
+		});
+		setOnSwipeRight(observable -> {
+			setVoltage(getVoltage() +1); 
+		});
 	}
 	public FloatProperty getVoltageProperty()
 	{

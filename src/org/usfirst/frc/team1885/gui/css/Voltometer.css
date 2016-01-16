@@ -1,0 +1,23 @@
+.track {
+	-fx-background-color: white;
+	-fx-effect: innershadow(gaussian, darkgrey, 10, 0.0, 0, 0);   
+}
+
+.track Text{
+	-fx-font-size: 75; 
+	-fx-fill: lightgrey; 
+	
+}
+
+.textBackground{
+	-fx-font-family: 'consolas'; 
+	-fx-font-size: 20; 
+	
+}
+
+.arm{
+	-fx-scale-shape:false;
+	-fx-shape: "m 0,50 v-100 h10 v100 h-10 z"; 
+	-fx-background-color: red; 
+}
+
