@@ -1,5 +1,5 @@
 *{
-	-fx-gauge-outline:black;
+	-fx-gauge-outline:Black;
 }
 .needle{
 	-fx-background-color:-fx-gauge-outline;
@@ -19,6 +19,7 @@
 	-fx-stroke-width:4;
 	-fx-stroke-type:inside;
 	-fx-position-shape:false;
+	-fx-effect:dropshadow(gaussian, black, 20, 0, 0, 0);
 }
 .knob{
 	-fx-fill:-fx-gauge-outline;

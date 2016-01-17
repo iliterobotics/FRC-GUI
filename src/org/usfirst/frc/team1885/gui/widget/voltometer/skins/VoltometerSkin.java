@@ -48,6 +48,9 @@ public class VoltometerSkin extends SkinBase<Voltometer>{
 		
 		
 		textBackground = new StackPane(min, mid, max); 
+		
+		textBackground.setMaxWidth(REG_WIDTH);
+		
 		background.getChildren().add(textBackground); 
 		textBackground.getStyleClass().setAll("textBackground");
 		StackPane.setAlignment(min, Pos.BOTTOM_LEFT);

@@ -1,11 +1,12 @@
 package org.usfirst.frc.team1885.gui.test;
 
-import java.util.Arrays;
+import java.util.ArrayList;
 
 import javafx.application.Application;
 import javafx.beans.property.SimpleFloatProperty;
 import javafx.scene.Scene;
-import javafx.scene.layout.HBox;
+import javafx.scene.control.ScrollPane;
+import javafx.scene.layout.VBox;
 import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 
@@ -19,8 +20,10 @@ public class AppMain extends Application {
 	TestRun testDataRunner;
 
 	public void start(Stage stage) throws Exception {
-		HBox hbox = new HBox();
-		Scene scene = new Scene(hbox);
+		VBox hbox = new VBox();
+		ScrollPane scroll = new ScrollPane();
+		scroll.setContent(hbox);
+		Scene scene = new Scene(scroll);
 		stage.setScene(scene);
 
 		//for(int i = 0; i < 10; i++){
@@ -29,17 +32,33 @@ public class AppMain extends Application {
 		
 		Voltometer vm = new Voltometer(0);
 		SimpleFloatProperty pressure = new SimpleFloatProperty(1);
-		GaugeMark[] marks = {new GaugeMark(0, Color.BLACK), new GaugeMark(2.5, Color.ORANGE), new GaugeMark(7.5, Color.DARKGRAY), new GaugeMark(10, Color.BLUE)};
-		Gauge gauge = new Gauge(pressure, 0, 10, Arrays.asList(marks));
+//		GaugeMark[] marks = {new GaugeMark(0, Color.BLACK), new GaugeMark(2.5, Color.ORANGE), new GaugeMark(7.5, Color.DARKGRAY), new GaugeMark(10, Color.BLUE)};
+//		Gauge gauge = new Gauge(pressure, 0, 10, Arrays.asList(marks));
+//		
 		
-		
-		hbox.getChildren().addAll(vm, gauge); 
 		
 		stage.show();
 		
 		scene.setFill(Color.BLACK);
 		
-		testDataRunner = new TestRun(vm, gauge);
+		ArrayList<Voltometer> volts = new ArrayList<Voltometer>();
+		ArrayList<Gauge> gauges = new ArrayList<Gauge>();
+		for(int i = 0; i < 10; i++){
+			volts.add(new Voltometer(0));
+			ArrayList<GaugeMark> marx = new ArrayList<GaugeMark>();
+			int marks = (int)(Math.random() * 10);
+			marx.add(new GaugeMark(10, Color.DARKGREY));
+			for(int j = 0; j < marks; j++){
+				marx.add(new GaugeMark((int)(Math.random() * 10), Color.rgb((int)(Math.random() * 255), (int)(Math.random() * 255), (int)(Math.random() * 255) )));
+			}
+			gauges.add(new Gauge(new SimpleFloatProperty(0), 0, 10, marx));
+		}
+		
+		hbox.getChildren().addAll(volts);
+		hbox.getChildren().addAll(gauges);
+		
+		
+		testDataRunner = new TestRun(volts, gauges);
 		runner = new Thread(testDataRunner);
 		runner.start();
 	}

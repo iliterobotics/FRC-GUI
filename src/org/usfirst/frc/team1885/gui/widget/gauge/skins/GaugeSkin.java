@@ -46,6 +46,7 @@ public class GaugeSkin extends SkinBase<Gauge>{
 		background = new StackPane();
 		getChildren().add(background);
 		background.getStyleClass().setAll("gauge-background");
+		background.setMaxWidth(radius);
 		
 		buildRegions();
 		

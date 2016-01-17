@@ -1,17 +1,19 @@
 package org.usfirst.frc.team1885.gui.test;
 
+import java.util.Collection;
+
 import org.usfirst.frc.team1885.gui.widget.gauge.Gauge;
 import org.usfirst.frc.team1885.gui.widget.voltometer.Voltometer;
 
 public class TestRun implements Runnable{
 
-	private Voltometer volt;
-	private Gauge gauge;
+	private Collection<Voltometer> volts;
+	private Collection<Gauge> gauges;
 	private boolean running;
 	
-	public TestRun(Voltometer volt, Gauge gauge){
-		this.volt = volt;
-		this.gauge = gauge;
+	public TestRun(Collection<Voltometer> volts, Collection<Gauge> gauges){
+		this.volts = volts;
+		this.gauges = gauges;
 		running = true;
 	}
 	
@@ -20,8 +22,12 @@ public class TestRun implements Runnable{
 		while(running){
 			try {
 				Thread.sleep(400);
-				volt.setVoltage((float)(Math.random() * 2 - 1));
-				gauge.setValue((volt.getVoltage() + 1) / 2 * gauge.getMax().doubleValue());
+				for(Voltometer volt : volts){
+					volt.setVoltage((float)(Math.random() * 2 - 1));
+				}
+				for(Gauge gauge : gauges){
+					gauge.setValue(Math.random()* gauge.getMax().doubleValue());
+				}
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
