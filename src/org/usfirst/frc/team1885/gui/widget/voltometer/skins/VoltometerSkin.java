@@ -32,6 +32,7 @@ public class VoltometerSkin extends SkinBase<Voltometer>{
 		
 		initGraphics(); 
 		setUpListeners(); 
+		updateValue(control.getVoltage());
 	}
 	public void initGraphics(){
 		
@@ -71,16 +72,14 @@ public class VoltometerSkin extends SkinBase<Voltometer>{
 	}
 	public void setUpListeners()
 	{ 
-		getSkinnable().getVoltageProperty().addListener(changeListener -> {
-			TranslateTransition move = new TranslateTransition (Duration.millis(333), arm);
-			value.setText(String.format("%1.2f", getSkinnable().getVoltage()) + "v"); 
-			move.setToX(getSkinnable().getVoltage()*(REG_WIDTH>>1));			
-			move.play(); 
-		});
-		getSkinnable().setOnMouseClicked(observable -> {
-			getSkinnable().setVoltage(getSkinnable().getVoltage() + 0.2f);
-		});
-		
+		getSkinnable().getVoltageProperty().addListener(changeListener -> updateValue(getSkinnable().getVoltage()));	
+	}
+	
+	public void updateValue(float voltage){
+		TranslateTransition move = new TranslateTransition (Duration.millis(333), arm);
+		value.setText(String.format("%+1.2f", voltage) + "v"); 
+		move.setToX(voltage*(REG_WIDTH>>1));			
+		move.play();
 	}
 		
 	

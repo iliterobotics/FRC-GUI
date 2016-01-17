@@ -16,6 +16,7 @@ import org.usfirst.frc.team1885.gui.widget.toggleSwitch.skins.ToggleSwitchSkin;
 public class ToggleSwitch extends Control{
 
 	private BooleanProperty activatedProperty;
+	
 	private final String SHORT_NAME;
 	private final String FULL_NAME;
 	

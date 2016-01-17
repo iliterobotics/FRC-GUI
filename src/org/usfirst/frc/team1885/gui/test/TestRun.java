@@ -5,14 +5,16 @@ import org.usfirst.frc.team1885.gui.widget.voltometer.Voltometer;
 public class TestRun implements Runnable{
 
 	private Voltometer volt;
+	private boolean running;
 	
 	public TestRun(Voltometer volt){
 		this.volt = volt;
+		running = true;
 	}
 	
 	@Override
 	public void run() {
-		while(true){
+		while(running){
 			try {
 				Thread.sleep(750);
 				volt.setVoltage((float)(Math.random() * 2 - 1));
@@ -20,6 +22,10 @@ public class TestRun implements Runnable{
 				e.printStackTrace();
 			}
 		}
+	}
+	
+	public void stop(){
+		running = false;
 	}
 
 }

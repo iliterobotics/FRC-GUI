@@ -5,14 +5,13 @@
 
 .track Text{
 	-fx-font-size: 75; 
+	-fx-font-family:'consolas';
 	-fx-fill: lightgrey; 
 	
 }
 
 .textBackground{
-	-fx-font-family: 'consolas'; 
-	-fx-font-size: 20; 
-	
+	-fx-font-size: 20;
 }
 
 .arm{
