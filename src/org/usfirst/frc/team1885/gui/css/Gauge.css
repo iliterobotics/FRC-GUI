@@ -1,3 +1,25 @@
+*{
+	-fx-gauge-outline:black;
+}
 .needle{
-	-fx-shape:"M 0,0 d";
+	-fx-background-color:-fx-gauge-outline;
+	-fx-scale-shape:true;
+	-fx-shape:"M 0,50 h-5 l 5,-100 l 5,100 h5 z";
+	-fx-position-shape:true;
+}
+.marker{
+	-fx-font-size:18;
+	-fx-font-weight:bold;
+	-fx-fill:-fx-gauge-outline;
+}
+
+.border{
+	-fx-fill:transparent;
+	-fx-stroke:-fx-gauge-outline;
+	-fx-stroke-width:4;
+	-fx-stroke-type:inside;
+	-fx-position-shape:false;
+}
+.knob{
+	-fx-fill:-fx-gauge-outline;
 }

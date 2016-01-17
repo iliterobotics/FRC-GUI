@@ -29,7 +29,7 @@ public class AppMain extends Application {
 		
 		Voltometer vm = new Voltometer(0);
 		SimpleFloatProperty pressure = new SimpleFloatProperty(1);
-		GaugeMark[] marks = {new GaugeMark(4, Color.GREEN), new GaugeMark(9, Color.YELLOW), new GaugeMark(10, Color.RED)};
+		GaugeMark[] marks = {new GaugeMark(0, Color.BLACK), new GaugeMark(2.5, Color.ORANGE), new GaugeMark(7.5, Color.DARKGRAY), new GaugeMark(10, Color.BLUE)};
 		Gauge gauge = new Gauge(pressure, 0, 10, Arrays.asList(marks));
 		
 		
@@ -39,7 +39,7 @@ public class AppMain extends Application {
 		
 		scene.setFill(Color.BLACK);
 		
-		testDataRunner = new TestRun(vm);
+		testDataRunner = new TestRun(vm, gauge);
 		runner = new Thread(testDataRunner);
 		runner.start();
 	}
