@@ -31,7 +31,7 @@ public class GaugeSkin extends SkinBase<Gauge>{
 	private Circle knob;
 
 	private static final double radius = 150;
-	private static final double baselineAngle = 50;
+	private static final double baselineAngle = 100;
 	
 	public GaugeSkin(Gauge control) {
 		super(control);
@@ -106,8 +106,8 @@ public class GaugeSkin extends SkinBase<Gauge>{
 			
 			double finalMarkerAngle = 270 - baselineAngle + arc.getLength();
 			marker.setTranslateX( (radius - 20) * Math.cos(Math.toRadians(finalMarkerAngle)));
-			double initialTY = -radius * Math.cos(Math.toRadians(Math.min(baselineAngle, 90))) - (radius - 10) * Math.sin(Math.toRadians(finalMarkerAngle));
-			marker.setTranslateY(initialTY + (initialTY > -radius * Math.cos(Math.toRadians(baselineAngle))?-10:10));
+			double initialTY = -radius * Math.cos(Math.toRadians(Math.min(baselineAngle, 90))) - (radius - 20) * Math.sin(Math.toRadians(finalMarkerAngle));
+			marker.setTranslateY(initialTY + (mark.getValue().equals(getSkinnable().getMin()) || mark.getValue().equals(getSkinnable().getMax())?-10:10));
 			
 			marker.getStyleClass().setAll("marker");
 			
