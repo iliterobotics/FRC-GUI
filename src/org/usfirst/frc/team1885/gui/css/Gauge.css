@@ -7,7 +7,7 @@
 	-fx-background-color:-fx-gauge-outline;
 	-fx-scale-shape:true;
 	-fx-shape:"M 0,50 h-5 l 5,-100 l 5,100 h5 z";
-	-fx-position-shape:true;
+	-fx-position-shape:true; 
 }
 .marker{
 	-fx-font-size:18;
