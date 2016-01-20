@@ -29,11 +29,11 @@ public class Gauge extends Control{
 		
 		unitProperty = new SimpleStringProperty("");
 		
-		setOnMouseClicked(observable -> setUnit("v"));
+		setOnMouseClicked(observable -> setUnit("f/s"));
 	}
 	
 	public void setUnit(String unit){
-		unitProperty.set(" " + unit);
+		unitProperty.set(unit);
 	}
 	
 	public String getUnit(){

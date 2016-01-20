@@ -131,7 +131,10 @@ public class GaugeSkin extends SkinBase<Gauge>{
 			
 			arc.setTranslateX(radius - radius*cosine);
 			
+			arcHolder.getChildren().add(arc);
+					
 			//setting up the numerical text marker
+			if(mark.getValue().equals(getSkinnable().getMax()) || mark.getValue().equals(getSkinnable().getMin())) continue;
 			Text marker = new Text(mark.getValue().toString() + getSkinnable().getUnit());
 			StackPane.setAlignment(marker, Pos.BOTTOM_CENTER);
 			
@@ -143,7 +146,7 @@ public class GaugeSkin extends SkinBase<Gauge>{
 			marker.getStyleClass().setAll("marker");
 			arc.getStyleClass().setAll("gauge-region");
 			
-			arcHolder.getChildren().addAll(arc, marker);
+			arcHolder.getChildren().add(marker);
 		}	
 		
 		Text fMarker = new Text(getSkinnable().getMin() + getSkinnable().getUnit());

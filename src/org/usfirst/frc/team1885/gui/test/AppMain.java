@@ -1,6 +1,7 @@
 package org.usfirst.frc.team1885.gui.test;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 import javafx.application.Application;
 import javafx.beans.property.SimpleFloatProperty;
@@ -33,6 +34,9 @@ public class AppMain extends Application {
 		
 		ArrayList<Voltometer> volts = new ArrayList<Voltometer>();
 		ArrayList<Gauge> gauges = new ArrayList<Gauge>();
+		GaugeMark[] marxs = {new GaugeMark(6, Color.GREEN), new GaugeMark(8, Color.YELLOW), new GaugeMark(10, Color.RED)};
+		gauges.add(new Gauge(new SimpleFloatProperty(0), 0, 10, Arrays.asList(marxs)));
+		
 		for(int i = 0; i < 10; i++){
 			volts.add(new Voltometer(0));
 			ArrayList<GaugeMark> marx = new ArrayList<GaugeMark>();
