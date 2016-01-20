@@ -22,16 +22,16 @@ import org.usfirst.frc.team1885.gui.widget.gauge.GaugeMark;
 
 public class GaugeSkin extends SkinBase<Gauge>{
 
-	private StackPane background;
+	private StackPane background, arcHolder;
 	private Region needle;
-	private Arc border;
+	private Arc borderArc, backgroundArc;
 	private Rotate needleRotate;
 	private Timeline timeline;
 	private KeyValue kv;
 	private Circle knob;
 
 	private static final double radius = 150;
-	private static final double baselineAngle = 100;
+	private static final double baselineAngle = 30;
 	
 	public GaugeSkin(Gauge control) {
 		super(control);
@@ -43,13 +43,50 @@ public class GaugeSkin extends SkinBase<Gauge>{
 	}
 	
 	public void initGraphics(){
+		buildBackground();
+		
+		arcHolder = new StackPane();
+		background.getChildren().add(arcHolder);
+		
+		buildRegions();
+		buildNeedle();
+		buildBorder();
+		
+		setUpListeners();
+	}
+	
+	public void buildBackground(){
 		background = new StackPane();
 		getChildren().add(background);
 		background.getStyleClass().setAll("gauge-background");
 		background.setMaxWidth(radius);
 		
-		buildRegions();
+		backgroundArc = new Arc();
+		backgroundArc.getStyleClass().setAll("border");
+		backgroundArc.setId("background");
+		StackPane.setAlignment(backgroundArc, Pos.BOTTOM_LEFT);
+		backgroundArc.setType(ArcType.ROUND);
+		backgroundArc.setStartAngle(270 - baselineAngle);
+		backgroundArc.setLength(-360 + ((int)baselineAngle << 1));
+		backgroundArc.setRadiusX(radius);
+		backgroundArc.setRadiusY(radius);
 		
+		background.getChildren().addAll(backgroundArc);
+	}
+	
+	public void buildBorder(){
+		borderArc = new Arc();
+		borderArc.getStyleClass().setAll("border");
+		StackPane.setAlignment(borderArc, Pos.BOTTOM_LEFT);
+		borderArc.setType(ArcType.ROUND);
+		borderArc.setStartAngle(270 - baselineAngle);
+		borderArc.setLength(-360 + ((int)baselineAngle << 1));
+		borderArc.setRadiusX(radius);
+		borderArc.setRadiusY(radius);
+		background.getChildren().add(borderArc);
+	}
+	
+	public void buildNeedle(){
 		needle = new Region();
 		needle.getStyleClass().setAll("needle");
 		needle.setMinSize(radius / 10, radius);
@@ -68,21 +105,15 @@ public class GaugeSkin extends SkinBase<Gauge>{
 		knob.setTranslateY(needle.getTranslateY() + (radius/10));
 		knob.setTranslateX(-1);
 		background.getChildren().addAll(knob);
-		
-		border = new Arc();
-		border.getStyleClass().setAll("border");
-		StackPane.setAlignment(border, Pos.BOTTOM_LEFT);
-		border.setType(ArcType.ROUND);
-		border.setStartAngle(270 - baselineAngle);
-		border.setLength(-360 + ((int)baselineAngle << 1));
-		border.setRadiusX(radius);
-		border.setRadiusY(radius);
-		background.getChildren().add(border);
 	}
 	
 	public void buildRegions(){
 		Set<GaugeMark> marks = getSkinnable().getKeyMarks();
+		
+		arcHolder.getChildren().clear();
+		
 		for(GaugeMark mark : marks){
+			//setting up the arc
 			Arc arc = new Arc();
 			arc.setType(ArcType.ROUND);
 			arc.setStartAngle(270 - baselineAngle);
@@ -90,9 +121,6 @@ public class GaugeSkin extends SkinBase<Gauge>{
 			arc.setFill(mark.getColor() != null?mark.getColor():Color.web("#4A4C4F"));
 			
 			StackPane.setAlignment(arc, Pos.BOTTOM_LEFT);
-			
-			Text marker = new Text(mark.getValue().toString());
-			StackPane.setAlignment(marker, Pos.BOTTOM_CENTER);
 			
 			arc.setRadiusX(radius);
 			arc.setRadiusY(radius);
@@ -103,6 +131,9 @@ public class GaugeSkin extends SkinBase<Gauge>{
 			
 			arc.setTranslateX(radius - radius*cosine);
 			
+			//setting up the numerical text marker
+			Text marker = new Text(mark.getValue().toString() + getSkinnable().getUnit());
+			StackPane.setAlignment(marker, Pos.BOTTOM_CENTER);
 			
 			double finalMarkerAngle = 270 - baselineAngle + arc.getLength();
 			marker.setTranslateX( (radius - 20) * Math.cos(Math.toRadians(finalMarkerAngle)));
@@ -110,9 +141,33 @@ public class GaugeSkin extends SkinBase<Gauge>{
 			marker.setTranslateY(initialTY + (mark.getValue().equals(getSkinnable().getMin()) || mark.getValue().equals(getSkinnable().getMax())?-10:10));
 			
 			marker.getStyleClass().setAll("marker");
+			arc.getStyleClass().setAll("gauge-region");
 			
-			background.getChildren().addAll(arc, marker);
+			arcHolder.getChildren().addAll(arc, marker);
 		}	
+		
+		Text fMarker = new Text(getSkinnable().getMin() + getSkinnable().getUnit());
+		Text lMarker = new Text(getSkinnable().getMax() + getSkinnable().getUnit());
+		
+		double angle = 270 - baselineAngle;
+		double translateY = -radius * Math.cos(Math.toRadians(Math.min(baselineAngle, 90))) - (radius + 20) * Math.sin(Math.toRadians(angle));
+		double translateX = (radius + 20) * Math.cos(Math.toRadians(angle));
+		
+		fMarker.setTranslateX(translateX);
+		fMarker.setTranslateY(translateY);
+		
+		lMarker.setTranslateX(-translateX);
+		lMarker.setTranslateY(translateY);
+		
+		StackPane.setAlignment(fMarker, Pos.BOTTOM_CENTER);
+		StackPane.setAlignment(lMarker, Pos.BOTTOM_CENTER);
+		
+		fMarker.getStyleClass().setAll("end-marker");
+		fMarker.setId("min");
+		lMarker.getStyleClass().setAll("end-marker");
+		lMarker.setId("max");
+		
+		arcHolder.getChildren().addAll(fMarker, lMarker);
 	}
 	
 	public void setNeedle(double value){
@@ -127,16 +182,11 @@ public class GaugeSkin extends SkinBase<Gauge>{
 		timeline.getKeyFrames().addAll(new KeyFrame(Duration.millis(333), kv));
 		timeline.play();
 		timeline.setOnFinished(o -> timeline = null);
-	
-//		RotateTransition rt = new RotateTransition(Duration.millis(333), needle);
-//		rt.setToAngle( (value / getSkinnable().getMax().doubleValue()) * ((360 - baselineAngle * 2) - 180));
-//		rt.play();
 	}
 	
 	public void setUpListeners(){
-		getSkinnable().getDataProperty().addListener(observable -> {
-			setNeedle(getSkinnable().getValue().doubleValue());
-		});
+		getSkinnable().getDataProperty().addListener(valueChanged -> setNeedle(getSkinnable().getValue().doubleValue()));
+		getSkinnable().getUnitProperty().addListener(unitChanged -> buildRegions());
 	}
 	
 

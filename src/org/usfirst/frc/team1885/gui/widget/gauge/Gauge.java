@@ -5,6 +5,8 @@ import java.util.Set;
 import java.util.TreeSet;
 
 import javafx.beans.property.Property;
+import javafx.beans.property.SimpleStringProperty;
+import javafx.beans.property.StringProperty;
 import javafx.scene.control.Control;
 import javafx.scene.control.Skin;
 
@@ -14,6 +16,7 @@ public class Gauge extends Control{
 	
 	private Property<Number> dataProperty;
 	private Set<GaugeMark> keyMarks;
+	private StringProperty unitProperty;
 	
 	private Number min, max;
 	
@@ -23,6 +26,18 @@ public class Gauge extends Control{
 		keyMarks.addAll(marks);
 		this.min = min;
 		this.max = max;
+		
+		unitProperty = new SimpleStringProperty("");
+		
+		setOnMouseClicked(observable -> setUnit("v"));
+	}
+	
+	public void setUnit(String unit){
+		unitProperty.set(" " + unit);
+	}
+	
+	public String getUnit(){
+		return unitProperty.get();
 	}
 	
 	public Set<GaugeMark> getKeyMarks(){
@@ -47,6 +62,10 @@ public class Gauge extends Control{
 	
 	public Property<Number> getDataProperty(){
 		return dataProperty;
+	}
+	
+	public StringProperty getUnitProperty(){
+		return unitProperty;
 	}
 	
 	public Skin<Gauge> createDefaultSkin(){

@@ -25,16 +25,6 @@ public class AppMain extends Application {
 		scroll.setContent(hbox);
 		Scene scene = new Scene(scroll);
 		stage.setScene(scene);
-
-		//for(int i = 0; i < 10; i++){
-		//		hbox.getChildren().add(new ToggleSwitch("LS" + i, "Limit Switch Number " + i));
-		//}
-		
-		Voltometer vm = new Voltometer(0);
-		SimpleFloatProperty pressure = new SimpleFloatProperty(1);
-//		GaugeMark[] marks = {new GaugeMark(0, Color.BLACK), new GaugeMark(2.5, Color.ORANGE), new GaugeMark(7.5, Color.DARKGRAY), new GaugeMark(10, Color.BLUE)};
-//		Gauge gauge = new Gauge(pressure, 0, 10, Arrays.asList(marks));
-//		
 		
 		
 		stage.show();
@@ -47,9 +37,8 @@ public class AppMain extends Application {
 			volts.add(new Voltometer(0));
 			ArrayList<GaugeMark> marx = new ArrayList<GaugeMark>();
 			int marks = (int)(Math.random() * 10);
-			marx.add(new GaugeMark(10, Color.DARKGREY));
 			for(int j = 0; j < marks; j++){
-				marx.add(new GaugeMark((int)(Math.random() * 10), Color.rgb((int)(Math.random() * 255), (int)(Math.random() * 255), (int)(Math.random() * 255) )));
+				marx.add(new GaugeMark((int)(Math.random() * 8 + 1), Color.rgb((int)(Math.random() * 255), (int)(Math.random() * 255), (int)(Math.random() * 255) )));
 			}
 			gauges.add(new Gauge(new SimpleFloatProperty(0), 0, 10, marx));
 		}
@@ -61,6 +50,9 @@ public class AppMain extends Application {
 		testDataRunner = new TestRun(volts, gauges);
 		runner = new Thread(testDataRunner);
 		runner.start();
+		
+		stage.setWidth(800);
+		stage.setHeight(600);
 	}
 	
 	public void stop(){

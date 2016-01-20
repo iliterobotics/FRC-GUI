@@ -1,17 +1,15 @@
 package org.usfirst.frc.team1885.gui.widget.voltometer.skins;
 
-import org.usfirst.frc.team1885.gui.widget.voltometer.Voltometer;
-
-import javafx.animation.PathTransition;
 import javafx.animation.TranslateTransition;
 import javafx.geometry.Pos;
 import javafx.scene.control.SkinBase;
 import javafx.scene.layout.Region;
 import javafx.scene.layout.StackPane;
 import javafx.scene.layout.VBox;
-import javafx.scene.shape.Shape;
 import javafx.scene.text.Text;
 import javafx.util.Duration;
+
+import org.usfirst.frc.team1885.gui.widget.voltometer.Voltometer;
 
 public class VoltometerSkin extends SkinBase<Voltometer>{
 
@@ -20,6 +18,7 @@ public class VoltometerSkin extends SkinBase<Voltometer>{
 	
 	private VBox background; 
 	private Region arm; 
+	private TranslateTransition animation;
 	
 	private StackPane track, textBackground;
 	
@@ -79,10 +78,15 @@ public class VoltometerSkin extends SkinBase<Voltometer>{
 	}
 	
 	public void updateValue(float voltage){
-		TranslateTransition move = new TranslateTransition (Duration.millis(333), arm);
+		if(animation != null){
+			animation.stop();
+			animation = null;
+		}
+		animation = new TranslateTransition (Duration.millis(1000), arm);
 		value.setText(String.format("%+1.2f", voltage) + "v"); 
-		move.setToX(voltage*(REG_WIDTH>>1));			
-		move.play();
+		animation.setToX(voltage*(REG_WIDTH>>1));			
+		animation.play();
+		animation.setOnFinished(finished -> animation = null);
 	}
 		
 	
