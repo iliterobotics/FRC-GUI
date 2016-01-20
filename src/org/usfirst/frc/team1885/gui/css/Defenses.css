@@ -1,0 +1,15 @@
+.background{
+	-fx-background-color: white; 
+	-fx-effect: innershadow(gaussian, lightgrey, 10, 0.0, 0, 0); 
+	
+}
+
+.background text{
+	-fx-fill: darkgrey; 
+	-fx-effect: dropshadow(gaussian, black, 10, 0.0, 0, 0); 
+	-fx-font-family: 'consolas';  
+	-fx-font-size: 30; 
+}
+
+
+
