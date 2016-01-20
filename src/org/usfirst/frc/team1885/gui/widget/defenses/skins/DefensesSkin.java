@@ -1,4 +1,4 @@
-package org.usfirst.frc.team1885.gui.widget.voltometer.skins;
+package org.usfirst.frc.team1885.gui.widget.defenses.skins;
 
 import org.usfirst.frc.team1885.gui.widget.defenses.Defenses;
 

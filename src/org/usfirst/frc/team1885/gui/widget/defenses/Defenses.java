@@ -2,12 +2,10 @@ package org.usfirst.frc.team1885.gui.widget.defenses;
 
 import java.util.Scanner;
 
-import org.usfirst.frc.team1885.gui.widget.voltometer.Voltometer;
-import org.usfirst.frc.team1885.gui.widget.voltometer.skins.DefensesSkin;
-import org.usfirst.frc.team1885.gui.widget.voltometer.skins.VoltometerSkin;
-
 import javafx.scene.control.Control;
-import javafx.scene.control.Skin; 
+import javafx.scene.control.Skin;
+
+import org.usfirst.frc.team1885.gui.widget.defenses.skins.DefensesSkin;
 
 public class Defenses extends Control {
 	
