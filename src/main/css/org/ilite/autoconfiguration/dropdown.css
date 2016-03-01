@@ -1,0 +1,85 @@
+.root{
+	-fx-font-size: 20;
+}
+.push-config{
+	-fx-background-color: black;	
+	-fx-padding:5;
+	-fx-background-radius: 5;
+	-fx-font-size: 20;
+	-fx-text-fill: white;
+}
+
+.spinner{
+	-fx-background-color: whitesmoke;
+}
+.spinner  .increment-arrow-button, .spinner  .decrement-arrow-button{
+	-fx-background-color:white;
+	-fx-background-insets:0;
+}
+.spinner  .increment-arrow-button:hover, .spinner  .decrement-arrow-button:hover{
+	-fx-background-color:#333333;
+}
+
+.push-config:hover{
+	-fx-background-color:#333333;
+}
+
+#success.push-config{
+	-fx-background-color:green;
+}
+#error.push-config{
+	-fx-background-color:red;
+}
+
+.slider{
+	-fx-show-tick-marks: true;
+	-fx-minor-tick-count: 10;
+	-fx-snap-to-ticks: true;
+}
+.slider .track{
+	-fx-background-color: #AAAAAA;
+	-fx-background-radius:0;
+}
+.slider .thumb{
+	-fx-focus-color:transparent;
+	-fx-background-color:white;
+	-fx-background-radius:10;
+	-fx-border-radius:10;
+	-fx-border-color:black;
+	-fx-border-width: 0.5;
+}
+
+.push-config:armed{
+	-fx-background-color:white;
+	-fx-text-fill: black;
+}
+
+.grid-pane{
+	-fx-padding:10;
+	-fx-hgap: 10;
+	-fx-vgap: 10;
+}
+
+.node:focused{
+	-fx-focus-color:transparent;
+}
+
+.combo-box{
+	-fx-focus-color:transparent;
+}
+
+.list-cell{
+	-fx-effect:null;
+	-fx-background-color:#DDDDDD;
+	-fx-background-insets:0;
+}
+
+.list-view .list-cell:even{
+	-fx-background-color:#BBBBBB;
+}
+
+.arrow-button{
+	-fx-background-color:white;
+	-fx-text-fill:black;
+}
+

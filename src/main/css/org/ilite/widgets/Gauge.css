@@ -1,0 +1,45 @@
+.needle{
+	-fx-background-color:black;
+	-fx-scale-shape:true;
+	-fx-shape:"M 0,50 h-5 l 5,-100 l 5,100 h5 z";
+	-fx-position-shape:true; 
+}
+.marker{
+	-fx-font-size:18;
+	-fx-fill:black;
+}
+
+.gauge-region{
+	-fx-stroke:#DDDDDD;
+	-fx-stroke-dash-array:10 20;
+	-fx-stroke-width:2;
+	-fx-stroke-type:inside;
+}
+
+.border{
+	-fx-fill:transparent;
+	-fx-stroke:black;
+	-fx-stroke-width:4;
+	-fx-stroke-type:inside;
+	-fx-position-shape:false;
+	-fx-effect:dropshadow(gaussian, black, 20, 0, 0, 0);
+}
+#background.border{
+	-fx-fill:#AAAAAA;
+	-fx-stroke:null;
+}
+.knob{
+	-fx-fill:black;
+}
+
+.end-marker{
+	-fx-fill:black;
+	-fx-font-weight:bold;
+	-fx-font-size:18;
+}
+
+#min.end-marker{
+}
+
+#max.end-marker{
+}

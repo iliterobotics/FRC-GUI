@@ -1,0 +1,20 @@
+.background{
+}
+.arm{
+	-fx-fill:transparent;
+	-fx-stroke:#999999;
+	-fx-stroke-width:15;
+	-fx-stroke-line-cap:round;
+	-fx-stroke-line-join:round;
+}
+#outline.arm{	
+	-fx-stroke:black;
+	-fx-stroke-width:18;
+}
+.endpoint{
+	-fx-fill:orange;
+}
+.to-point{
+	-fx-fill:green;
+	-fx-effect:dropshadow(gaussian, green, 30, 0, 0, 0);
+}
