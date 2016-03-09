@@ -3,6 +3,13 @@ apply plugin: 'eclipse'
 
 sourceCompatibility = 1.8
 
+repositories{
+	mavenCentral()
+	maven {
+		url 'http://xuggle.googlecode.com/svn/trunk/repo/share/java/'
+	}
+}
+
 sourceSets{
 	main{
 		java{
@@ -15,6 +22,7 @@ sourceSets{
 }
 
 dependencies{
+	compile 'xuggle:xuggle-xuggler:5.4'
 	compile files('D:/eclipse/plugins/org.eclipse.fx.ide.css.jfx8_1.2.0.201501301049.jar')
 	compile files("../FRC-Vision/libraries/opencv/build/java/opencv-2410.jar")
 	compile files("/libraries/jimObjModelImporterJFX.jar")

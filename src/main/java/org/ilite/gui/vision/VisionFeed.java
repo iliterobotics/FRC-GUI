@@ -5,6 +5,7 @@ import java.util.ArrayList;
 
 import javafx.application.Application;
 import javafx.embed.swing.SwingFXUtils;
+import javafx.scene.Node;
 import javafx.scene.Scene;
 import javafx.scene.image.ImageView;
 import javafx.scene.image.WritableImage;
@@ -24,8 +25,7 @@ import dataclient.robotdata.vision.CameraFeedDatabase;
 
 public class VisionFeed extends Application implements ITowerListener, Runnable{
 
-	private static final int FPS = 10;
-	private static final int DEFAULT_WIDTH = 800, DEFAULT_HEIGHT = 600;
+	private static final int FPS = 30;
 	private static final String MONGO_URL = "localhost";
 	private static final String WEB_SERVER_URL = "http://localhost:8083";
 	
@@ -34,24 +34,27 @@ public class VisionFeed extends Application implements ITowerListener, Runnable{
 	
 	private static final String DEFAULT_BUCKET = "video";
 	
+	private ICameraConnection cameraConnection;
+	
 	private StackPane mainPane;
 	private ImageView imageView;
 	private String session;
 	
-//TODO re-implement constructor once this class is not main
-//	public ReadVideo(String videoSession, boolean camera){
-//		
-//	}
+	/**@deprecated ONLY FOR TESTING*/
+	public VisionFeed(){}
 	
-	public void construct(String videoSession, boolean camera){
-		imageView = new ImageView(new WritableImage(DEFAULT_WIDTH, DEFAULT_HEIGHT));
-		imageView.setFitWidth(DEFAULT_WIDTH);
-		imageView.setFitHeight(DEFAULT_HEIGHT);
+	public VisionFeed(double d, double height, String videoSession, boolean camera){
+		construct(d, height, videoSession, camera);
+	}
+	
+	public void construct(double width, double height, String videoSession, boolean camera){
+		imageView = new ImageView(new WritableImage((int)width, (int)height));
+		imageView.setFitWidth(width);
+		imageView.setFitHeight(height);
 		mainPane = new StackPane(imageView);
 		session = videoSession;
 		frames = new ArrayList<BufferedImage>();
 		DataServerWebClient client = new DataServerWebClient(WEB_SERVER_URL);
-		System.out.println("Using address:" + MONGO_URL);
 		db = new CameraFeedDatabase(client, MONGO_URL, DEFAULT_BUCKET, session);
 		if(camera){
 			pullCameraFeed();
@@ -62,7 +65,7 @@ public class VisionFeed extends Application implements ITowerListener, Runnable{
 	}
 	
 	private void pullCameraFeed(){
-		ICameraConnection cameraConnection = CameraConnectionFactory.getCameraConnection(ECameraType.LOCAL_CAMERA.getCameraIP());
+		cameraConnection = CameraConnectionFactory.getCameraConnection(ECameraType.FIELD_CAMERA.getCameraIP());
 		TowerTracker1885 aTracker = new TowerTracker1885(cameraConnection);
 		aTracker.addTowerListener(this);
 		aTracker.addTowerListener(db);
@@ -76,8 +79,10 @@ public class VisionFeed extends Application implements ITowerListener, Runnable{
 	
 	public void start(Stage primaryStage){
 		try{
-			construct("video01", true);
+			construct(800, 600, "test1", true);
 			primaryStage.setScene(new Scene(mainPane));
+			primaryStage.setWidth(800);
+			primaryStage.setHeight(600);
 			primaryStage.show();
 		}
 		catch(Exception e){
@@ -91,20 +96,17 @@ public class VisionFeed extends Application implements ITowerListener, Runnable{
 
 	@Override
 	public void fire(TowerMessage message) {
-		System.out.println("Feed got frame");
 		displayImage(message.bImage);
 	}
 	
 	public void displayImage(BufferedImage image){
-		imageView.setImage(SwingFXUtils.toFXImage(image, (WritableImage)(imageView.getImage()) ));	
+		imageView.setImage(SwingFXUtils.toFXImage(image, (WritableImage)(new WritableImage(image.getWidth(), image.getHeight())) ));	
 	}
 
 	@Override
 	public void run() {
-		System.out.println("STARTING DATABASE READ");
 		int n = 0;
 		BufferedImage frame = db.pullFrame(n);
-		System.out.println(frame);
 		while(frame != null){
 			frames.add(frame);
 			displayImage(frame);
@@ -116,6 +118,19 @@ public class VisionFeed extends Application implements ITowerListener, Runnable{
 			}
 			frame = db.pullFrame(n);
 		}
+	}
+	
+	public Node getFeed() {
+		return mainPane;
+	}
+	
+	public String getSessionName(){
+		return session;
+	}
+	
+	public void saveToMP4(String filepath){
+		cameraConnection.destroy();
+		VisionFeedToMP4.WriteToMP4(db, filepath);
 	}
 	
 }

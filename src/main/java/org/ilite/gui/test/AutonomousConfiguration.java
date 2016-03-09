@@ -1,25 +1,11 @@
 package org.ilite.gui.test;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-
 import javafx.application.Application;
-import javafx.beans.property.SimpleFloatProperty;
-import javafx.scene.Scene;
-import javafx.scene.control.ScrollPane;
-import javafx.scene.layout.VBox;
-import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 
 import org.ilite.gui.autonomousconfig.ConfigureAutonomous;
-import org.ilite.gui.widget.armDisplay.ArmDisplay;
-import org.ilite.gui.widget.gauge.Gauge;
-import org.ilite.gui.widget.gauge.GaugeMark;
-import org.ilite.gui.widget.voltometer.Voltometer;
 
-import dataclient.robotdata.autonomous.AutonomousConfig;
-
-public class AppMain extends Application {
+public class AutonomousConfiguration extends Application {
 	
 	Thread runner;
 	TestRun testDataRunner;

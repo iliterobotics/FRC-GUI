@@ -20,8 +20,6 @@ import org.ilite.gui.widget.armDisplay.ArmDisplay;
 
 public class ArmDisplaySkin extends SkinBase<ArmDisplay> {
 
-	private static final int SCALAR = 7;
-
 	private static final double LENGTH_A = 17.5;
 	private static final double LENGTH_B = 18;
 	
@@ -47,6 +45,9 @@ public class ArmDisplaySkin extends SkinBase<ArmDisplay> {
 	private static DoubleProperty destinationXRepresentationProperty;
 	private static DoubleProperty destinationYRepresentationProperty;
 
+	private final double WIDTH;
+	private final double HEIGHT;
+	
 	private StackPane background;
 	private ImageView backgroundImage;
 	private Circle endpoint;
@@ -59,11 +60,12 @@ public class ArmDisplaySkin extends SkinBase<ArmDisplay> {
 
 	private double oldPivotPointX, oldPivotPointY, oldEndPointX, oldEndPointY;
 
-	public ArmDisplaySkin(ArmDisplay control) {
+	public ArmDisplaySkin(ArmDisplay control, double width, double height) {
 		super(control);
 		control.getStylesheets().add("/org/ilite/widgets/ArmDisplay.css");
 		
-		getSkinnable().setMinSize(TOTAL_GRAPH_WIDTH * SCALAR, TOTAL_GRAPH_HEIGHT * SCALAR);
+		WIDTH = width;
+		HEIGHT = height;
 
 		alphaRepresentationProperty = new SimpleDoubleProperty(getSkinnable().getAlpha());
 		betaRepresentationProperty = new SimpleDoubleProperty(getSkinnable().getBeta());
@@ -81,7 +83,6 @@ public class ArmDisplaySkin extends SkinBase<ArmDisplay> {
 		endPointXProperty = new SimpleDoubleProperty(oldEndPointX);
 		endPointYProperty = new SimpleDoubleProperty(oldEndPointY);
 		
-		
 		initGraphics();
 		updateArm();
 		setUpListeners();
@@ -92,13 +93,12 @@ public class ArmDisplaySkin extends SkinBase<ArmDisplay> {
 	private void initGraphics() {
 		background = new StackPane();
 		background.getStyleClass().setAll("background");
-		background.setMinSize(TOTAL_GRAPH_WIDTH * SCALAR, TOTAL_GRAPH_HEIGHT * SCALAR);
-		background.setMaxSize(TOTAL_GRAPH_WIDTH * SCALAR, TOTAL_GRAPH_HEIGHT * SCALAR);
-		getSkinnable().setMinSize(TOTAL_GRAPH_WIDTH * SCALAR, TOTAL_GRAPH_HEIGHT * SCALAR);
+		background.setMinSize(WIDTH, HEIGHT);
+		background.setMaxSize(WIDTH, HEIGHT);
 		
 		backgroundImage = new ImageView(new Image("/arm/background_grid.png"));
-		backgroundImage.setFitHeight(TOTAL_GRAPH_HEIGHT * SCALAR);
-		backgroundImage.setFitWidth(TOTAL_GRAPH_WIDTH * SCALAR);
+		backgroundImage.setFitWidth(WIDTH);
+		backgroundImage.setFitHeight(HEIGHT);
 		
 		arm = new Polyline(0, 0, pivotPointXProperty.get(), pivotPointYProperty.get(), endPointXProperty.get(), endPointYProperty.get());
 		arm.getStyleClass().setAll("arm");
@@ -118,6 +118,7 @@ public class ArmDisplaySkin extends SkinBase<ArmDisplay> {
 		StackPane.setAlignment(toPoint, Pos.BOTTOM_LEFT);
 		
 		background.getChildren().addAll(backgroundImage, armOutline, arm, endpoint, toPoint);
+		
 		
 		getChildren().setAll(background);
 	}
@@ -142,11 +143,11 @@ public class ArmDisplaySkin extends SkinBase<ArmDisplay> {
 		});
 		
 		destinationXRepresentationProperty.addListener(observable -> {
-			toPoint.setTranslateX(TOTAL_GRAPH_WIDTH / 2 * SCALAR - ARM_WIDTH / 2 + destinationXRepresentationProperty.get() * SCALAR);
+			toPoint.setTranslateX(WIDTH / 2 - ARM_WIDTH / 2 + destinationXRepresentationProperty.get() / TOTAL_GRAPH_WIDTH * WIDTH);
 		});
 		
 		destinationYRepresentationProperty.addListener(observable -> {
-			toPoint.setTranslateY(-TOTAL_GRAPH_HEIGHT * (1.0/3) * SCALAR + ARM_WIDTH / 2 - destinationYRepresentationProperty.get() * SCALAR);
+			toPoint.setTranslateY(-HEIGHT * (1.0/3) + ARM_WIDTH / 2 - destinationYRepresentationProperty.get() / TOTAL_GRAPH_HEIGHT * HEIGHT);
 		});
 		
 		
@@ -202,14 +203,14 @@ public class ArmDisplaySkin extends SkinBase<ArmDisplay> {
 				yDist = arm.getPoints().get(PIVOT_POINT_Y);
 			}
 		}
-		arm.setTranslateX(xDist + TOTAL_GRAPH_WIDTH * SCALAR / 2 - ARM_WIDTH / 2);
-		arm.setTranslateY(yDist + -TOTAL_GRAPH_HEIGHT * SCALAR * (1.0/3) + ARM_WIDTH / 2);
+		arm.setTranslateX(xDist + WIDTH / 2 - ARM_WIDTH / 2);
+		arm.setTranslateY(yDist + -HEIGHT * (1.0/3) + ARM_WIDTH / 2);
 		
 		armOutline.setTranslateX(arm.getTranslateX() - ARM_OUTLINE_WIDTH/2);
 		armOutline.setTranslateY(arm.getTranslateY() + ARM_OUTLINE_WIDTH/2);
 		
-		endpoint.setTranslateX( TOTAL_GRAPH_WIDTH  / 2 * SCALAR - ARM_WIDTH / 2 + arm.getPoints().get(END_POINT_X) );
-		endpoint.setTranslateY( -TOTAL_GRAPH_HEIGHT * (1.0/3) * SCALAR + ARM_WIDTH / 2 + arm.getPoints().get(END_POINT_Y) );
+		endpoint.setTranslateX( WIDTH / 2 - ARM_WIDTH / 2 + arm.getPoints().get(END_POINT_X) );
+		endpoint.setTranslateY( -HEIGHT * (1.0/3) + ARM_WIDTH / 2 + arm.getPoints().get(END_POINT_Y) );
 	}
 	
 	public void updateArm() {
@@ -219,18 +220,18 @@ public class ArmDisplaySkin extends SkinBase<ArmDisplay> {
 	}
 
 	private double getPivotPointX() {
-		return SCALAR * LENGTH_A * Math.cos(Math.toRadians(alphaRepresentationProperty.get()));
+		return LENGTH_A * Math.cos(Math.toRadians(alphaRepresentationProperty.get())) / TOTAL_GRAPH_WIDTH * WIDTH;
 	}
 
 	private double getPivotPointY() {
-		return -SCALAR * LENGTH_A * Math.sin(Math.toRadians(alphaRepresentationProperty.get()));
+		return -LENGTH_A * Math.sin(Math.toRadians(alphaRepresentationProperty.get())) / TOTAL_GRAPH_HEIGHT * HEIGHT;
 	}
 
 	private double getEndPointX() {
-		return getPivotPointX() + SCALAR * LENGTH_B * Math.cos(Math.toRadians(180 - betaRepresentationProperty.get() + alphaRepresentationProperty.get()));
+		return getPivotPointX() + LENGTH_B * Math.cos(Math.toRadians(180 - betaRepresentationProperty.get() + alphaRepresentationProperty.get())) / TOTAL_GRAPH_WIDTH * WIDTH;
 	}
 
 	private double getEndPointY() {
-		return getPivotPointY() - SCALAR * LENGTH_B * Math.sin(Math.toRadians(180 - betaRepresentationProperty.get() + alphaRepresentationProperty.get()));
+		return getPivotPointY() - LENGTH_B * Math.sin(Math.toRadians(180 - betaRepresentationProperty.get() + alphaRepresentationProperty.get())) / TOTAL_GRAPH_HEIGHT * HEIGHT;
 	}
 }

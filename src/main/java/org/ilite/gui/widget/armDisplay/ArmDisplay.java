@@ -4,7 +4,6 @@ import javafx.beans.property.DoubleProperty;
 import javafx.beans.property.ReadOnlyDoubleProperty;
 import javafx.beans.property.SimpleDoubleProperty;
 import javafx.scene.control.Control;
-import javafx.scene.control.Skin;
 
 import org.ilite.gui.widget.armDisplay.skin.ArmDisplaySkin;
 
@@ -16,11 +15,14 @@ public class ArmDisplay extends Control{
 	private DoubleProperty destinationXProperty;
 	private DoubleProperty destinationYProperty;
 	
-	public ArmDisplay(){
+	public ArmDisplay(double width, double height){
 		alphaProperty = new SimpleDoubleProperty(0);
 		betaProperty = new SimpleDoubleProperty(DEFAULT_BETA);
 		destinationXProperty = new SimpleDoubleProperty(0);
 		destinationYProperty = new SimpleDoubleProperty(0);
+		setSkin(new ArmDisplaySkin(this, width, height));
+		setWidth(width);
+		setHeight(height);
 	}
 	
 	public void setAlpha(double angle){
@@ -71,7 +73,4 @@ public class ArmDisplay extends Control{
 		return destinationYProperty;
 	}
 	
-	public Skin<ArmDisplay> createDefaultSkin(){
-		return new ArmDisplaySkin(this);
-	}
 }

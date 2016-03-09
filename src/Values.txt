@@ -31387,3 +31387,2411 @@ Joint A Degree: 63.17746560237213 --Joint B Degree: -95.77775132400805
 Joint A Degree 2: 63.17746560237213 --Joint B Degree 2: 338.95521692638016
 
 Joint A Position: 189.7047910467474 --Joint B Position: 1054.1392837017036Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 173.0677591500012 --Joint B Degree: 4.1221546046728195
+
+Joint A Degree 2: 173.0677591500012 --Joint B Degree 2: 348.94560454532837
+
+Joint A Position: 502.2816260266701 --Joint B Position: 1082.5563862622676Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 58.0488543701731 --Joint B Degree: -156.47547690534404
+
+Joint A Degree 2: 58.0488543701731 --Joint B Degree 2: 34.52433127551717
+
+Joint A Position: 175.1167413196035 --Joint B Position: 188.2025422948044Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 105.3208414571177 --Joint B Degree: -102.70016605367705
+
+Joint A Degree 2: 105.3208414571177 --Joint B Degree 2: 28.021007510794732
+
+Joint A Position: 309.57928236691254 --Joint B Position: 169.70419914181613Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 4.839990468876209 --Joint B Degree: 167.47676297934393
+
+Joint A Degree 2: 4.839990468876209 --Joint B Degree 2: 17.363227489532278
+
+Joint A Position: 23.767084000358995 --Joint B Position: 139.38873597022516Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 156.41628037946606 --Joint B Degree: -1.665782490789764
+
+Joint A Degree 2: 156.41628037946606 --Joint B Degree 2: 338.0820628702558
+
+Joint A Position: 454.9174197460368 --Joint B Position: 1051.6556454976167Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 114.27234034041396 --Joint B Degree: -80.94188753704499
+
+Joint A Degree 2: 114.27234034041396 --Joint B Degree 2: 15.214227877458939
+
+Joint A Position: 335.0413236349553 --Joint B Position: 133.27602596254988Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 57.804183930665126 --Joint B Degree: -101.72759068235906
+
+Joint A Degree 2: 57.804183930665126 --Joint B Degree 2: 339.5317746130242
+
+Joint A Position: 174.42078984722525 --Joint B Position: 1055.77927001038Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 122.03385650267232 --Joint B Degree: -31.921106138026836
+
+Joint A Degree 2: 122.03385650267232 --Joint B Degree 2: 333.95496264069914
+
+Joint A Position: 357.11852516315685 --Joint B Position: 1039.9163381779886Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 54.77037868543812 --Joint B Degree: 179.03151229220683
+
+Joint A Degree 2: 54.77037868543812 --Joint B Degree 2: 55.73886639323129
+
+Joint A Position: 165.79129937191288 --Joint B Position: 248.5461088518579Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 52.06105309161812 --Joint B Degree: -170.04369675510299
+
+Joint A Degree 2: 52.06105309161812 --Joint B Degree 2: 42.104749846721106
+
+Joint A Position: 158.08477323838045 --Joint B Position: 209.76462178622893Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 43.00389200628889 --Joint B Degree: -158.56351508742182
+
+Joint A Degree 2: 43.00389200628889 --Joint B Degree 2: 21.567407093710713
+
+Joint A Position: 132.32218170677731 --Joint B Position: 151.34729128877714Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 28.85858145537001 --Joint B Degree: 159.5720709006226
+
+Joint A Degree 2: 28.85858145537001 --Joint B Degree 2: 49.28651055474741
+
+Joint A Position: 92.0866316952747 --Joint B Position: 230.19274113350374Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 122.08431425238157 --Joint B Degree: -5.322608397982038
+
+Joint A Degree 2: 122.08431425238157 --Joint B Degree 2: 307.40692265036364
+
+Joint A Position: 357.2620494289965 --Joint B Position: 964.4019133165899Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 23.876813412463072 --Joint B Degree: 158.40339528312418
+
+Joint A Degree 2: 23.876813412463072 --Joint B Degree 2: 45.47341812933889
+
+Joint A Position: 77.91626926211718 --Joint B Position: 219.3466115678973Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 64.31429771379406 --Joint B Degree: -154.74300760311428
+
+Joint A Degree 2: 64.31429771379406 --Joint B Degree 2: 39.05730531690834
+
+Joint A Position: 192.93844683034757 --Joint B Position: 201.0963351236504Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 127.0587605283979 --Joint B Degree: -11.043454941356277
+
+Joint A Degree 2: 127.0587605283979 --Joint B Degree 2: 318.1022154697542
+
+Joint A Position: 371.4115855029985 --Joint B Position: 994.824079558412Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 89.5731855784599 --Joint B Degree: -121.89018359308987
+
+Joint A Degree 2: 89.5731855784599 --Joint B Degree 2: 31.463369171549786
+
+Joint A Position: 264.7859500898415 --Joint B Position: 179.4958056435194Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 127.23960659714213 --Joint B Degree: -36.0791565423132
+
+Joint A Degree 2: 127.23960659714213 --Joint B Degree 2: 343.3187631394553
+
+Joint A Position: 371.9259920985376 --Joint B Position: 1066.551148485562Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 18.122913330442778 --Joint B Degree: -147.31988547615282
+
+Joint A Degree 2: 18.122913330442778 --Joint B Degree 2: 345.4427988065956
+
+Joint A Position: 61.54962013992613 --Joint B Position: 1072.592849938761Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 67.64329051339827 --Joint B Degree: -156.47534055769177
+
+Joint A Degree 2: 67.64329051339827 --Joint B Degree 2: 44.118631071090036
+
+Joint A Position: 202.40758190477732 --Joint B Position: 215.49299504665612Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 114.16898068753929 --Joint B Degree: -19.364712325976292
+
+Joint A Degree 2: 114.16898068753929 --Joint B Degree 2: 313.5336930135156
+
+Joint A Position: 334.7473228445562 --Joint B Position: 981.8291712384444Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 55.67787031912089 --Joint B Degree: -93.28737351292895
+
+Joint A Degree 2: 55.67787031912089 --Joint B Degree 2: 328.96524383204985
+
+Joint A Position: 168.37260890772166 --Joint B Position: 1025.7233602333863Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 14.817621443159691 --Joint B Degree: 148.077714267852
+
+Joint A Degree 2: 14.817621443159691 --Joint B Degree 2: 46.73990717530769
+
+Joint A Position: 52.147900993876455 --Joint B Position: 222.949069298653Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 17.528589171082537 --Joint B Degree: 156.8009981728162
+
+Joint A Degree 2: 17.528589171082537 --Joint B Degree 2: 40.72759099826633
+
+Joint A Position: 59.85909808663477 --Joint B Position: 205.84736995062423Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 108.73886293517678 --Joint B Degree: -88.44688329698836
+
+Joint A Degree 2: 108.73886293517678 --Joint B Degree 2: 17.18574623216513
+
+Joint A Position: 319.30165457116954 --Joint B Position: 138.88390039371416Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 134.0915651947828 --Joint B Degree: -74.62193798636494
+
+Joint A Degree 2: 134.0915651947828 --Joint B Degree 2: 28.71350318114773
+
+Joint A Position: 391.41600766515995 --Joint B Position: 171.67396460415353Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 99.58276367517004 --Joint B Degree: -104.18412527482796
+
+Joint A Degree 2: 99.58276367517004 --Joint B Degree 2: 23.76688894999802
+
+Joint A Position: 293.25763889826146 --Joint B Position: 157.60359523554993Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 109.24382220461352 --Joint B Degree: -86.65406242807619
+
+Joint A Degree 2: 109.24382220461352 --Joint B Degree 2: 15.897884632689724
+
+Joint A Position: 320.73798315978956 --Joint B Position: 135.220649621873Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 124.90955451194444 --Joint B Degree: -81.01260536720804
+
+Joint A Degree 2: 124.90955451194444 --Joint B Degree 2: 25.922159879152474
+
+Joint A Position: 365.29828838953085 --Joint B Position: 163.73414365625592Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 46.04345422077134 --Joint B Degree: 178.45885198046864
+
+Joint A Degree 2: 46.04345422077134 --Joint B Degree 2: 47.5846022403027
+
+Joint A Position: 140.96804756130516 --Joint B Position: 225.35175748352768Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 38.30968009952912 --Joint B Degree: -179.69972071570257
+
+Joint A Degree 2: 38.30968009952912 --Joint B Degree 2: 38.009400815231714
+
+Joint A Position: 118.9697567275495 --Joint B Position: 198.11562898554797Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 132.84789607076453 --Joint B Degree: -54.63595392189703
+
+Joint A Degree 2: 132.84789607076453 --Joint B Degree 2: 10.0
+
+Joint A Position: 387.8784599346191 --Joint B Position: 118.44444444444444Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 112.0477809973458 --Joint B Degree: -79.15115470702541
+
+Joint A Degree 2: 112.0477809973458 --Joint B Degree 2: 11.198935704371195
+
+Joint A Position: 328.71368817022807 --Joint B Position: 121.85475044798918Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 74.81170677087009 --Joint B Degree: -73.62678600724239
+
+Joint A Degree 2: 74.81170677087009 --Joint B Degree 2: 328.4384927781125
+
+Joint A Position: 222.79774370380827 --Joint B Position: 1024.225046124409Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 119.68537782723062 --Joint B Degree: -53.980764133702344
+
+Joint A Degree 2: 119.68537782723062 --Joint B Degree 2: 10.0
+
+Joint A Position: 350.43840804190046 --Joint B Position: 118.44444444444444Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 61.68499966717595 --Joint B Degree: -151.04838799009366
+
+Joint A Degree 2: 61.68499966717595 --Joint B Degree 2: 32.73338765726961
+
+Joint A Position: 185.45955460885605 --Joint B Position: 183.1083026695669Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 133.74964263277525 --Joint B Degree: -68.10719352320822
+
+Joint A Degree 2: 133.74964263277525 --Joint B Degree 2: 21.856836155983473
+
+Joint A Position: 390.4434279332274 --Joint B Position: 152.17055617701965Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 132.9980092364145 --Joint B Degree: -29.607741529110044
+
+Joint A Degree 2: 132.9980092364145 --Joint B Degree 2: 342.6057507655246
+
+Joint A Position: 388.30544849469015 --Joint B Position: 1064.5230243997144Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 66.05471197176534 --Joint B Degree: -100.057542927981
+
+Joint A Degree 2: 66.05471197176534 --Joint B Degree 2: 346.11225489974635
+
+Joint A Position: 197.88895849746586 --Joint B Position: 1074.4970806037231Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 141.70471035934642 --Joint B Degree: -15.630023950800906
+
+Joint A Degree 2: 141.70471035934642 --Joint B Degree 2: 337.3347343101473
+
+Joint A Position: 413.07117613325204 --Joint B Position: 1049.5299109266412Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 35.69614930977111 --Joint B Degree: -177.12206665737867
+
+Joint A Degree 2: 35.69614930977111 --Joint B Degree 2: 32.818215967149804
+
+Joint A Position: 111.53571359223783 --Joint B Position: 183.34959208433722Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: -179.0442518080013 --Joint B Degree: 11.432768546173547
+
+Joint A Degree 2: -179.0442518080013 --Joint B Degree 2: 10.0
+
+Joint A Position: -499.2814273649815 --Joint B Position: 118.44444444444444Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 41.320255242176465 --Joint B Degree: -115.34607658970181
+
+Joint A Degree 2: 41.320255242176465 --Joint B Degree 2: 336.66633183187827
+
+Joint A Position: 127.53317046663528 --Joint B Position: 1047.628677210676Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 96.90494476848346 --Joint B Degree: -99.78590960080051
+
+Joint A Degree 2: 96.90494476848346 --Joint B Degree 2: 16.690854369283954
+
+Joint A Position: 285.64073178590854 --Joint B Position: 137.47620798374103Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 8.174283469600633 --Joint B Degree: 151.74808015147516
+
+Joint A Degree 2: 8.174283469600633 --Joint B Degree 2: 36.42620331812547
+
+Joint A Position: 33.251295202419584 --Joint B Position: 193.61231166044576Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 132.56086072580774 --Joint B Degree: -6.6008744648356386
+
+Joint A Degree 2: 132.56086072580774 --Joint B Degree 2: 319.1617351906434
+
+Joint A Position: 387.0620038422976 --Joint B Position: 997.8378245422746Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 63.73472692911912 --Joint B Degree: -158.85845921799287
+
+Joint A Degree 2: 63.73472692911912 --Joint B Degree 2: 42.593186147111965
+
+Joint A Position: 191.2898899317166 --Joint B Position: 211.1539517073407Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 74.68208985026786 --Joint B Degree: -79.09093434615063
+
+Joint A Degree 2: 74.68208985026786 --Joint B Degree 2: 333.7730241964185
+
+Joint A Position: 222.42905557409526 --Joint B Position: 1039.3988243809235Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 136.32136387600957 --Joint B Degree: -57.108445333183205
+
+Joint A Degree 2: 136.32136387600957 --Joint B Degree 2: 13.429809209192769
+
+Joint A Position: 397.75854613620504 --Joint B Position: 128.2003461950372Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 47.322362406638455 --Joint B Degree: -172.38810339009729
+
+Joint A Degree 2: 47.322362406638455 --Joint B Degree 2: 39.71046579673574
+
+Joint A Position: 144.60583084554938 --Joint B Position: 202.9542138218261Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 121.67411809431313 --Joint B Degree: -4.827767927642917
+
+Joint A Degree 2: 121.67411809431313 --Joint B Degree 2: 306.50188602195607
+
+Joint A Position: 356.09526924604626 --Joint B Position: 961.8275869068973Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 33.80137714541302 --Joint B Degree: 179.5127977318088
+
+Joint A Degree 2: 33.80137714541302 --Joint B Degree 2: 34.28857941360422
+
+Joint A Position: 106.14613943584149 --Joint B Position: 187.53195922091868Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 64.26794496033814 --Joint B Degree: -135.634875150191
+
+Joint A Degree 2: 64.26794496033814 --Joint B Degree 2: 19.902820110529106
+
+Joint A Position: 192.80659899829516 --Joint B Position: 146.61246609217167Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 78.97201640069898 --Joint B Degree: -111.16748617799028
+
+Joint A Degree 2: 78.97201640069898 --Joint B Degree 2: 10.139502578689246
+
+Joint A Position: 234.63151331754375 --Joint B Position: 118.84125177938274Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 14.842611821083095 --Joint B Degree: 166.88472060364322
+
+Joint A Degree 2: 14.842611821083095 --Joint B Degree 2: 27.95789121743988
+
+Joint A Position: 52.21898473552525 --Joint B Position: 169.524668351829Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 59.588783218579074 --Joint B Degree: -132.56493285488986
+
+Joint A Degree 2: 59.588783218579074 --Joint B Degree 2: 12.153716073468964
+
+Joint A Position: 179.4969833772916 --Joint B Position: 124.57057016453393Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 13.051225576844848 --Joint B Degree: 148.71845773546775
+
+Joint A Degree 2: 13.051225576844848 --Joint B Degree 2: 44.3327678413771
+
+Joint A Position: 47.12348608524757 --Joint B Position: 216.10209519325042Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 22.469100316084845 --Joint B Degree: 175.29624238303003
+
+Joint A Degree 2: 22.469100316084845 --Joint B Degree 2: 27.17285793305481
+
+Joint A Position: 73.91210756575245 --Joint B Position: 167.2916847873559Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 117.17584848822395 --Joint B Degree: -84.37273838068042
+
+Joint A Degree 2: 117.17584848822395 --Joint B Degree 2: 21.54858686890435
+
+Joint A Position: 343.3001912553926 --Joint B Position: 151.2937582048835Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 120.60147069016676 --Joint B Degree: -78.129219335178
+
+Joint A Degree 2: 120.60147069016676 --Joint B Degree 2: 18.730690025344757
+
+Joint A Position: 353.0441832964744 --Joint B Position: 143.27840718320286Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 63.80235512744933 --Joint B Degree: -93.40744202315119
+
+Joint A Degree 2: 63.80235512744933 --Joint B Degree 2: 337.20979715060054
+
+Joint A Position: 191.48225458474477 --Joint B Position: 1049.1745341172636Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 61.947207952442966 --Joint B Degree: -175.12937320725752
+
+Joint A Degree 2: 61.947207952442966 --Joint B Degree 2: 57.07658115970048
+
+Joint A Position: 186.2053915091711 --Joint B Position: 252.35116418759247Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 119.05313273738942 --Joint B Degree: -5.63166487349236
+
+Joint A Degree 2: 119.05313273738942 --Joint B Degree 2: 304.6847976108818
+
+Joint A Position: 348.64002200857436 --Joint B Position: 956.6589798709526Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 62.28613068693177 --Joint B Degree: -139.5566676886838
+
+Joint A Degree 2: 62.28613068693177 --Joint B Degree 2: 21.842798375615544
+
+Joint A Position: 187.1694383983837 --Joint B Position: 152.13062649063977Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 56.24188494802293 --Joint B Degree: -163.6359658578332
+
+Joint A Degree 2: 56.24188494802293 --Joint B Degree 2: 39.87785080585611
+
+Joint A Position: 169.97691718548745 --Joint B Position: 203.43033118110185Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 155.16829111219548 --Joint B Degree: 0.840969194967121
+
+Joint A Degree 2: 155.16829111219548 --Joint B Degree 2: 334.32732191722835
+
+Joint A Position: 451.3675836080227 --Joint B Position: 1040.9754934534494Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 113.06945332970744 --Joint B Degree: -99.8177999644917
+
+Joint A Degree 2: 113.06945332970744 --Joint B Degree 2: 32.887253294199155
+
+Joint A Position: 331.6197783600567 --Joint B Position: 183.54596492572205Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 9.921445633219145 --Joint B Degree: 157.47359944553986
+
+Joint A Degree 2: 9.921445633219145 --Joint B Degree 2: 32.44784618767928
+
+Joint A Position: 38.22100091226779 --Joint B Position: 182.29609582273218Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 0.7687668497656115 --Joint B Degree: 124.8973811203101
+
+Joint A Degree 2: 0.7687668497656115 --Joint B Degree 2: 55.87138572945551
+
+Joint A Position: 12.186714594888851 --Joint B Position: 248.92305274156234Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 40.88771681652766 --Joint B Degree: -160.47266371018273
+
+Joint A Degree 2: 40.88771681652766 --Joint B Degree 2: 21.360380526710358
+
+Joint A Position: 126.30283894478978 --Joint B Position: 150.75841572042057Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 126.04732871581307 --Joint B Degree: -15.043699039285944
+
+Joint A Degree 2: 126.04732871581307 --Joint B Degree 2: 321.091027755099
+
+Joint A Position: 368.5346239027572 --Joint B Position: 1003.3255900589483Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 49.65665226415546 --Joint B Degree: 176.1312662548558
+
+Joint A Degree 2: 49.65665226415546 --Joint B Degree 2: 53.52538600929966
+
+Joint A Position: 151.24558866248665 --Joint B Position: 242.2499868708968Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 88.2491241667331 --Joint B Degree: -118.12247179151987
+
+Joint A Degree 2: 88.2491241667331 --Joint B Degree 2: 26.37159595825294
+
+Joint A Position: 261.0197309631519 --Joint B Position: 165.01253961458616Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 53.382128482401086 --Joint B Degree: 177.2115104604043
+
+Joint A Degree 2: 53.382128482401086 --Joint B Degree 2: 56.17061802199679
+
+Joint A Position: 161.8424987943853 --Joint B Position: 249.77420237367977Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 64.95710455775856 --Joint B Degree: -88.90102956558748
+
+Joint A Degree 2: 64.95710455775856 --Joint B Degree 2: 333.858134123346
+
+Joint A Position: 194.76687518651323 --Joint B Position: 1039.6409148397397Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 151.8364157426845 --Joint B Degree: -2.720304189468367
+
+Joint A Degree 2: 151.8364157426845 --Joint B Degree 2: 334.5567199321529
+
+Joint A Position: 441.8902492236359 --Joint B Position: 1041.628003362568Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 93.11747119177404 --Joint B Degree: -77.55963045787081
+
+Joint A Degree 2: 93.11747119177404 --Joint B Degree 2: 10.0
+
+Joint A Position: 274.8674736121573 --Joint B Position: 118.44444444444444Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 144.95344581248554 --Joint B Degree: -20.923921601112372
+
+Joint A Degree 2: 144.95344581248554 --Joint B Degree 2: 345.8773674135979
+
+Joint A Position: 422.3120236444033 --Joint B Position: 1073.8289561986785Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 7.716027622748772 --Joint B Degree: 153.78904901179516
+
+Joint A Degree 2: 7.716027622748772 --Joint B Degree 2: 33.92697861095361
+
+Joint A Position: 31.94781190470762 --Joint B Position: 186.50340582671248Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 13.078132062645944 --Joint B Degree: 159.44595032587145
+
+Joint A Degree 2: 13.078132062645944 --Joint B Degree 2: 33.63218173677449
+
+Joint A Position: 47.20002008930402 --Joint B Position: 185.66487249571412Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 101.7450958286822 --Joint B Degree: -44.375041351076845
+
+Joint A Degree 2: 101.7450958286822 --Joint B Degree 2: 326.120137179759
+
+Joint A Position: 299.4082725793627 --Joint B Position: 1017.6306124224257Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 135.25472190783478 --Joint B Degree: -3.8659417446065696
+
+Joint A Degree 2: 135.25472190783478 --Joint B Degree 2: 319.12066365244135
+
+Joint A Position: 394.7245423156189 --Joint B Position: 997.720998833611Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 31.561999157284777 --Joint B Degree: 173.49438951608278
+
+Joint A Degree 2: 31.561999157284777 --Joint B Degree 2: 38.067609641202
+
+Joint A Position: 99.77635315849892 --Joint B Position: 198.2812007571968Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 55.25050442006883 --Joint B Degree: -169.15051590561504
+
+Joint A Degree 2: 55.25050442006883 --Joint B Degree 2: 44.401020325683895
+
+Joint A Position: 167.156990350418 --Joint B Position: 216.29623559305642Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 37.37022229600178 --Joint B Degree: -152.6759124604574
+
+Joint A Degree 2: 37.37022229600178 --Joint B Degree 2: 10.046134756459203
+
+Joint A Position: 116.29752119751618 --Joint B Position: 118.57567219615062Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 24.232867149105154 --Joint B Degree: 174.1607499345592
+
+Joint A Degree 2: 24.232867149105154 --Joint B Degree 2: 30.072117214545962
+
+Joint A Position: 78.92904433523243 --Joint B Position: 175.5384667435974Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 32.274846058259925 --Joint B Degree: -166.11716483852385
+
+Joint A Degree 2: 32.274846058259925 --Joint B Degree 2: 18.392010896783802
+
+Joint A Position: 101.80400656571712 --Joint B Position: 142.31505321751837Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 34.82807462962492 --Joint B Degree: -170.6014537033924
+
+Joint A Degree 2: 34.82807462962492 --Joint B Degree 2: 25.429528333017316
+
+Joint A Position: 109.06652339093311 --Joint B Position: 162.3328805916937Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 87.26938129776336 --Joint B Degree: -111.4086225991257
+
+Joint A Degree 2: 87.26938129776336 --Joint B Degree 2: 18.678003896889052
+
+Joint A Position: 258.23290680252694 --Joint B Position: 143.12854441781775Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 106.1122272420924 --Joint B Degree: -82.95827367250178
+
+Joint A Degree 2: 106.1122272420924 --Joint B Degree 2: 10.0
+
+Joint A Position: 311.83033526639616 --Joint B Position: 118.44444444444444Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 115.87360785865079 --Joint B Degree: -34.792845418383806
+
+Joint A Degree 2: 115.87360785865079 --Joint B Degree 2: 330.66645327703463
+
+Joint A Position: 339.59604013127336 --Joint B Position: 1030.5623559880096Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 45.960830229933535 --Joint B Degree: -141.91321102335894
+
+Joint A Degree 2: 45.960830229933535 --Joint B Degree 2: 10.0
+
+Joint A Position: 140.73302820958872 --Joint B Position: 118.44444444444444Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 179.8301697095875 --Joint B Degree: -15.7453834666715
+
+Joint A Degree 2: 179.8301697095875 --Joint B Degree 2: 15.575553176259007
+
+Joint A Position: 521.5169271739378 --Joint B Position: 134.30379570135895Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 135.23082949653215 --Joint B Degree: -31.299160695552384
+
+Joint A Degree 2: 135.23082949653215 --Joint B Degree 2: 346.52999019208454
+
+Joint A Position: 394.6565816790248 --Joint B Position: 1075.6853054352628Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 74.03100232489305 --Joint B Degree: -126.32810013389005
+
+Joint A Degree 2: 74.03100232489305 --Joint B Degree 2: 20.359102458783127
+
+Joint A Position: 220.5770732796958 --Joint B Position: 147.9103358827609Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 132.82750784582373 --Joint B Degree: -56.07496847177999
+
+Joint A Degree 2: 132.82750784582373 --Joint B Degree 2: 10.0
+
+Joint A Position: 387.82046676145416 --Joint B Position: 118.44444444444444Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 77.33813912754928 --Joint B Degree: -77.08455794778293
+
+Joint A Degree 2: 77.33813912754928 --Joint B Degree 2: 334.42269707533217
+
+Joint A Position: 229.98404018502907 --Joint B Position: 1041.246782792056Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 132.5089236257116 --Joint B Degree: -20.881290531023286
+
+Joint A Degree 2: 132.5089236257116 --Joint B Degree 2: 333.3902141567349
+
+Joint A Position: 386.91427164646853 --Joint B Position: 1038.309942490268Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 83.76253166089377 --Joint B Degree: -121.21385887413783
+
+Joint A Degree 2: 83.76253166089377 --Joint B Degree 2: 24.976390535031598
+
+Joint A Position: 248.25786783543117 --Joint B Position: 161.04395529964543Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 162.90290039681602 --Joint B Degree: 7.134543489239435
+
+Joint A Degree 2: 162.90290039681602 --Joint B Degree 2: 335.7683569075766
+
+Joint A Position: 473.36825001761 --Joint B Position: 1045.0744374259957Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 129.7366654693152 --Joint B Degree: -20.362310860540063
+
+Joint A Degree 2: 129.7366654693152 --Joint B Degree 2: 330.09897632985525
+
+Joint A Position: 379.028737334941 --Joint B Position: 1028.948199338255Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 112.12606063397554 --Joint B Degree: -89.24342747160905
+
+Joint A Degree 2: 112.12606063397554 --Joint B Degree 2: 21.36948810558458
+
+Joint A Position: 328.93635024775267 --Joint B Position: 150.78432172255168Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 80.56974797326201 --Joint B Degree: -127.07183749338427
+
+Joint A Degree 2: 80.56974797326201 --Joint B Degree 2: 27.641585466646248
+
+Joint A Position: 239.17617201283417 --Joint B Position: 168.62495421623822Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 158.62216119494644 --Joint B Degree: -7.376142670512241
+
+Joint A Degree 2: 158.62216119494644 --Joint B Degree 2: 345.9983038654587
+
+Joint A Position: 461.19192517673656 --Joint B Position: 1074.172953217305Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 131.44060360850727 --Joint B Degree: -63.85968527376281
+
+Joint A Degree 2: 131.44060360850727 --Joint B Degree 2: 15.300288882270081
+
+Joint A Position: 383.8754947086429 --Joint B Position: 133.52082170956822Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 59.806811533954956 --Joint B Degree: -89.72487933249317
+
+Joint A Degree 2: 59.806811533954956 --Joint B Degree 2: 329.5316908664481
+
+Joint A Position: 180.1171528076941 --Joint B Position: 1027.3345873534524Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 34.710077648078574 --Joint B Degree: 175.34852192474142
+
+Joint A Degree 2: 34.710077648078574 --Joint B Degree 2: 39.361555723337155
+
+Joint A Position: 108.7308875323124 --Joint B Position: 201.9617585019368Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 129.14498188051274 --Joint B Degree: -4.934890732590499
+
+Joint A Degree 2: 129.14498188051274 --Joint B Degree 2: 314.07987261310325
+
+Joint A Position: 377.3457262379029 --Joint B Position: 983.3827487661604Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 47.010331098524425 --Joint B Degree: -143.27378047838687
+
+Joint A Degree 2: 47.010331098524425 --Joint B Degree 2: 10.284111576911293
+
+Joint A Position: 143.7182751246917 --Joint B Position: 119.25258404099212Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 83.26958250412898 --Joint B Degree: -114.50962348003385
+
+Joint A Degree 2: 83.26958250412898 --Joint B Degree 2: 17.779205984162815
+
+Joint A Position: 246.855701345078 --Joint B Position: 140.57196368828534Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 144.5120493451327 --Joint B Degree: -1.1321555267568024
+
+Joint A Degree 2: 144.5120493451327 --Joint B Degree 2: 325.64420487188954
+
+Joint A Position: 421.05649591504414 --Joint B Position: 1016.2768494133747Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 63.200263865598565 --Joint B Degree: -163.3991504496959
+
+Joint A Degree 2: 63.200263865598565 --Joint B Degree 2: 46.59941431529443
+
+Joint A Position: 189.76963943992482 --Joint B Position: 222.54944516350417Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 170.44652650866817 --Joint B Degree: 8.899699797814831
+
+Joint A Degree 2: 170.44652650866817 --Joint B Degree 2: 341.54682671085334
+
+Joint A Position: 494.82567540243394 --Joint B Position: 1061.5109737553162Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 52.24191132270574 --Joint B Degree: -104.71764908305327
+
+Joint A Degree 2: 52.24191132270574 --Joint B Degree 2: 336.959560405759
+
+Joint A Position: 158.59921442902967 --Joint B Position: 1048.4627495986035Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 10.808426200239952 --Joint B Degree: 152.1226401878491
+
+Joint A Degree 2: 10.808426200239952 --Joint B Degree 2: 38.68578601239085
+
+Joint A Position: 40.74396785846031 --Joint B Position: 200.03956910191175Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 24.957234820905295 --Joint B Degree: 172.37733951631398
+
+Joint A Degree 2: 24.957234820905295 --Joint B Degree 2: 32.57989530459132
+
+Joint A Position: 80.9894679350195 --Joint B Position: 182.67170219972644Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 29.380576059722827 --Joint B Degree: 168.9419762590822
+
+Joint A Degree 2: 29.380576059722827 --Joint B Degree 2: 40.43859980064063
+
+Joint A Position: 93.57141634765604 --Joint B Position: 205.02535054404447Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 4.11904937399593 --Joint B Degree: 130.23605113338633
+
+Joint A Degree 2: 4.11904937399593 --Joint B Degree 2: 53.8829982406096
+
+Joint A Position: 21.71640710825509 --Joint B Position: 243.26719499551177Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 25.984099616363206 --Joint B Degree: -176.55761692654158
+
+Joint A Degree 2: 25.984099616363206 --Joint B Degree 2: 22.54171654290479
+
+Joint A Position: 83.91032779765534 --Joint B Position: 154.11866038870696Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 131.4850836682076 --Joint B Degree: -82.67466646070031
+
+Joint A Degree 2: 131.4850836682076 --Joint B Degree 2: 34.159750128907945
+
+Joint A Position: 384.0020157673461 --Joint B Position: 187.16551147778262Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 103.8435487444501 --Joint B Degree: -39.48030657359556
+
+Joint A Degree 2: 103.8435487444501 --Joint B Degree 2: 323.3238553180457
+
+Joint A Position: 305.37720531754695 --Joint B Position: 1009.6767440157744Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 130.2124601958753 --Joint B Degree: -25.949940997629234
+
+Joint A Degree 2: 130.2124601958753 --Joint B Degree 2: 336.16240119350454
+
+Joint A Position: 380.3821090016009 --Joint B Position: 1046.1952745059684Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 104.947008117547 --Joint B Degree: -85.31648192606158
+
+Joint A Degree 2: 104.947008117547 --Joint B Degree 2: 10.263490043608556
+
+Joint A Position: 308.5159342010226 --Joint B Position: 119.19392723515323Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 127.58360274176592 --Joint B Degree: -43.79070033644256
+
+Joint A Degree 2: 127.58360274176592 --Joint B Degree 2: 10.0
+
+Joint A Position: 372.9044700210231 --Joint B Position: 118.44444444444444Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 116.70272788091516 --Joint B Degree: -85.19073270274305
+
+Joint A Degree 2: 116.70272788091516 --Joint B Degree 2: 21.89346058365821
+
+Joint A Position: 341.95442597238093 --Joint B Position: 152.27473232685003Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 135.66344699229342 --Joint B Degree: -59.448562728272016
+
+Joint A Degree 2: 135.66344699229342 --Joint B Degree 2: 15.112009720565425
+
+Joint A Position: 395.8871381114124 --Joint B Position: 132.98527209405276Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 6.5960547418761415 --Joint B Degree: 140.77088987561245
+
+Joint A Degree 2: 6.5960547418761415 --Joint B Degree 2: 45.82516486626369
+
+Joint A Position: 28.762111265781027 --Joint B Position: 220.3471356195945Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 159.13850275116158 --Joint B Degree: -8.893352076046305
+
+Joint A Degree 2: 159.13850275116158 --Joint B Degree 2: 348.0318548272079
+
+Joint A Position: 462.6606300477485 --Joint B Position: 1079.957275952947Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 79.93978503513216 --Joint B Degree: -134.410478193942
+
+Joint A Degree 2: 79.93978503513216 --Joint B Degree 2: 34.35026322907419
+
+Joint A Position: 237.38427743326483 --Joint B Position: 187.70741540714437Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 116.3251681414109 --Joint B Degree: -15.060109045482706
+
+Joint A Degree 2: 116.3251681414109 --Joint B Degree 2: 311.38527718689363
+
+Joint A Position: 340.88047826890215 --Joint B Position: 975.7181217760531Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 71.7363440791191 --Joint B Degree: -121.89809729658859
+
+Joint A Degree 2: 71.7363440791191 --Joint B Degree 2: 13.634441375707723
+
+Joint A Position: 214.05004538060547 --Joint B Position: 128.7824110242353Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 70.78857074332272 --Joint B Degree: -97.34359357363161
+
+Joint A Degree 2: 70.78857074332272 --Joint B Degree 2: 348.13216431695434
+
+Joint A Position: 211.35415678100685 --Joint B Position: 1080.2426007237814Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 122.915907349224 --Joint B Degree: -42.74545209538441
+
+Joint A Degree 2: 122.915907349224 --Joint B Degree 2: 345.66135944460837
+
+Joint A Position: 359.62746979334827 --Joint B Position: 1073.2145335313305Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 41.878243107149665 --Joint B Degree: 176.74088978681937
+
+Joint A Degree 2: 41.878243107149665 --Joint B Degree 2: 45.1373533203303
+
+Joint A Position: 129.1203359492257 --Joint B Position: 218.39069388893952Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 120.01609519931469 --Joint B Degree: -13.600421336322805
+
+Joint A Degree 2: 120.01609519931469 --Joint B Degree 2: 313.6165165356375
+
+Joint A Position: 351.3791152336062 --Joint B Position: 982.0647581458134Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 29.539011327120935 --Joint B Degree: 159.7638717110245
+
+Joint A Degree 2: 29.539011327120935 --Joint B Degree 2: 49.775139616096425
+
+Joint A Position: 94.02207666381067 --Joint B Position: 231.58261935245207Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 149.1382513205388 --Joint B Degree: -32.658998506866304
+
+Joint A Degree 2: 149.1382513205388 --Joint B Degree 2: 10.0
+
+Joint A Position: 434.21547042286596 --Joint B Position: 118.44444444444444Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 95.37346467108897 --Joint B Degree: -59.150589232485395
+
+Joint A Degree 2: 95.37346467108897 --Joint B Degree 2: 334.5240539035744
+
+Joint A Position: 281.2845217310975 --Joint B Position: 1041.535086659056Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 123.11095283826967 --Joint B Degree: -30.501831433076187
+
+Joint A Degree 2: 123.11095283826967 --Joint B Degree 2: 333.61278427134584
+
+Joint A Position: 360.18226585107817 --Joint B Position: 1038.9430308162728Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: NaN --Joint B Degree: NaN
+
+Joint A Degree 2: NaN --Joint B Degree 2: NaN
+
+Joint A Position: NaN --Joint B Position: NaNInitial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: NaN --Joint B Degree: NaN
+
+Joint A Degree 2: NaN --Joint B Degree 2: NaN
+
+Joint A Position: NaN --Joint B Position: NaNInitial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: NaN --Joint B Degree: NaN
+
+Joint A Degree 2: NaN --Joint B Degree 2: NaN
+
+Joint A Position: NaN --Joint B Position: NaNInitial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: NaN --Joint B Degree: NaN
+
+Joint A Degree 2: NaN --Joint B Degree 2: NaN
+
+Joint A Position: NaN --Joint B Position: NaNInitial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: NaN --Joint B Degree: NaN
+
+Joint A Degree 2: NaN --Joint B Degree 2: NaN
+
+Joint A Position: NaN --Joint B Position: NaNInitial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: NaN --Joint B Degree: NaN
+
+Joint A Degree 2: NaN --Joint B Degree 2: NaN
+
+Joint A Position: NaN --Joint B Position: NaNInitial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: NaN --Joint B Degree: NaN
+
+Joint A Degree 2: NaN --Joint B Degree 2: NaN
+
+Joint A Position: NaN --Joint B Position: NaNInitial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: NaN --Joint B Degree: NaN
+
+Joint A Degree 2: NaN --Joint B Degree 2: NaN
+
+Joint A Position: NaN --Joint B Position: NaNInitial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 157.57204924657967 --Joint B Degree: -15.757604711777038
+
+Joint A Degree 2: 157.57204924657967 --Joint B Degree 2: 10.0
+
+Joint A Position: 458.20494007915994 --Joint B Position: 118.44444444444444Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 153.47780743459896 --Joint B Degree: -9.479724317261974
+
+Joint A Degree 2: 153.47780743459896 --Joint B Degree 2: 342.9575317518609
+
+Joint A Position: 446.5590967028593 --Joint B Position: 1065.52364587196Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 1.0035661201330242 --Joint B Degree: 146.30727856120768
+
+Joint A Degree 2: 1.0035661201330242 --Joint B Degree 2: 34.69628755892534
+
+Joint A Position: 12.854588075045047 --Joint B Position: 188.6916623898321Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 2.439447030924586 --Joint B Degree: 136.25868464055418
+
+Joint A Degree 2: 2.439447030924586 --Joint B Degree 2: 46.180762390370404
+
+Joint A Position: 16.938871554629934 --Joint B Position: 221.35861302149803Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 4.103158713823658 --Joint B Degree: 134.23466762753813
+
+Joint A Degree 2: 4.103158713823658 --Joint B Degree 2: 49.86849108628553
+
+Joint A Position: 21.671207008209514 --Joint B Position: 231.84815242321218Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 120.35540696882117 --Joint B Degree: -31.03183276752259
+
+Joint A Degree 2: 120.35540696882117 --Joint B Degree 2: 331.38723973634376
+
+Joint A Position: 352.3442687113136 --Joint B Position: 1032.6125930278222Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: NaN --Joint B Degree: NaN
+
+Joint A Degree 2: NaN --Joint B Degree 2: NaN
+
+Joint A Position: NaN --Joint B Position: NaNInitial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 120.00384219957476 --Joint B Degree: -35.72542785497379
+
+Joint A Degree 2: 120.00384219957476 --Joint B Degree 2: 335.7292700545486
+
+Joint A Position: 351.34426225656824 --Joint B Position: 1044.9632570440494Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 132.32329373023177 --Joint B Degree: -11.223836893229203
+
+Joint A Degree 2: 132.32329373023177 --Joint B Degree 2: 323.54713062346093
+
+Joint A Position: 386.38625772154813 --Joint B Position: 1010.3118382178444Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 121.01974834544266 --Joint B Degree: -41.420929923448476
+
+Joint A Degree 2: 121.01974834544266 --Joint B Degree 2: 342.44067826889113
+
+Joint A Position: 354.23395084925914 --Joint B Position: 1064.053484853735Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 134.7082444896516 --Joint B Degree: -22.54154971584225
+
+Joint A Degree 2: 134.7082444896516 --Joint B Degree 2: 337.24979420549386
+
+Joint A Position: 393.17011765945347 --Joint B Position: 1049.2883035178493Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 98.14880892261621 --Joint B Degree: -65.42298141871338
+
+Joint A Degree 2: 98.14880892261621 --Joint B Degree 2: 343.5717903413296
+
+Joint A Position: 289.178834268775 --Joint B Position: 1067.2708703042263Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 126.23840510423173 --Joint B Degree: 0.46834219124218646
+
+Joint A Degree 2: 126.23840510423173 --Joint B Degree 2: 305.77006291298954
+
+Joint A Position: 369.07813007425915 --Joint B Position: 959.7459567302814Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 83.94731834315182 --Joint B Degree: -70.75033134017576
+
+Joint A Degree 2: 83.94731834315182 --Joint B Degree 2: 334.6976496833276
+
+Joint A Position: 248.7834832871874 --Joint B Position: 1042.028870210354Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 130.3873125496837 --Joint B Degree: -6.981603451523642
+
+Joint A Degree 2: 130.3873125496837 --Joint B Degree 2: 317.36891600120737
+
+Joint A Position: 380.8794668079892 --Joint B Position: 992.7382499589899Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 11.075636440297599 --Joint B Degree: 122.06512845345694
+
+Joint A Degree 2: 11.075636440297599 --Joint B Degree 2: 69.01050798684066
+
+Joint A Position: 41.50403254129095 --Joint B Position: 286.2965560514579Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 93.091929939596 --Joint B Degree: -56.625188017079715
+
+Joint A Degree 2: 93.091929939596 --Joint B Degree 2: 329.71711795667574
+
+Joint A Position: 274.7948229392953 --Joint B Position: 1027.8620244100998Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 2.446236030496723 --Joint B Degree: 127.1246718380912
+
+Joint A Degree 2: 2.446236030496723 --Joint B Degree 2: 55.32156419240552
+
+Joint A Position: 16.958182486746235 --Joint B Position: 247.3591159250646Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 89.79861656985035 --Joint B Degree: -64.30530280948905
+
+Joint A Degree 2: 89.79861656985035 --Joint B Degree 2: 334.1039193793394
+
+Joint A Position: 265.42717602090767 --Joint B Position: 1040.3400373456766Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 124.33518005340187 --Joint B Degree: -0.8927204158407017
+
+Joint A Degree 2: 124.33518005340187 --Joint B Degree 2: 305.22790046924257
+
+Joint A Position: 363.6645121518987 --Joint B Position: 958.2038057791789Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 142.49683326263974 --Joint B Degree: 3.419582340291618
+
+Joint A Degree 2: 142.49683326263974 --Joint B Degree 2: 319.0772509223481
+
+Joint A Position: 415.32432572484197 --Joint B Position: 997.5975137346792Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 5.098363506023029 --Joint B Degree: 130.6769776961754
+
+Joint A Degree 2: 5.098363506023029 --Joint B Degree 2: 54.421385809847614
+
+Joint A Position: 24.502011750465506 --Joint B Position: 244.79860852578878Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 143.7199637727522 --Joint B Degree: 3.7726777684787285
+
+Joint A Degree 2: 143.7199637727522 --Joint B Degree 2: 319.94728600427345
+
+Joint A Position: 418.80345250916184 --Joint B Position: 1000.0722801899334Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 135.2453485035227 --Joint B Degree: -23.173989890591642
+
+Joint A Degree 2: 135.2453485035227 --Joint B Degree 2: 338.41933839411433
+
+Joint A Position: 394.6978801877979 --Joint B Position: 1052.615006987703Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 139.42782379133047 --Joint B Degree: -9.184795572793346
+
+Joint A Degree 2: 139.42782379133047 --Joint B Degree 2: 328.6126193641238
+
+Joint A Position: 406.5946987842289 --Joint B Position: 1024.7203395246188Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 88.6183618105526 --Joint B Degree: -64.88378945383543
+
+Joint A Degree 2: 88.6183618105526 --Joint B Degree 2: 333.50215126438803
+
+Joint A Position: 262.0700069277941 --Joint B Position: 1038.6283413742594Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 0.10061430054704283 --Joint B Degree: 152.58758370480595
+
+Joint A Degree 2: 0.10061430054704283 --Joint B Degree 2: 27.513030595741093
+
+Joint A Position: 10.2861917882227 --Joint B Position: 168.25928702788576Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 147.11951070646424 --Joint B Degree: -11.00067931810511
+
+Joint A Degree 2: 147.11951070646424 --Joint B Degree 2: 338.12019002456935
+
+Joint A Position: 428.47327489838716 --Joint B Position: 1051.7640960698864Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 133.80664865684605 --Joint B Degree: -22.749925409846444
+
+Joint A Degree 2: 133.80664865684605 --Joint B Degree 2: 336.5565740666925
+
+Joint A Position: 390.6055784016954 --Joint B Position: 1047.3164773452586Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 128.0516932781919 --Joint B Degree: 0.2725480782726292
+
+Joint A Degree 2: 128.0516932781919 --Joint B Degree 2: 307.7791451999193
+
+Joint A Position: 374.23592754685694 --Joint B Position: 965.4606796797705Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 122.3207296575906 --Joint B Degree: -21.944352448503928
+
+Joint A Degree 2: 122.3207296575906 --Joint B Degree 2: 324.26508210609455
+
+Joint A Position: 357.9345199149244 --Joint B Position: 1012.3540113240023Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 100.97638922859761 --Joint B Degree: -57.94728939243864
+
+Joint A Degree 2: 100.97638922859761 --Joint B Degree 2: 338.9236786210363
+
+Joint A Position: 297.22172936134433 --Joint B Position: 1054.049574744281Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 113.90078029102816 --Joint B Degree: -44.613637562942976
+
+Joint A Degree 2: 113.90078029102816 --Joint B Degree 2: 338.51441785397117
+
+Joint A Position: 333.98444171670235 --Joint B Position: 1052.8854552290736Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 5.1264865284263825 --Joint B Degree: 130.66017817387
+
+Joint A Degree 2: 5.1264865284263825 --Joint B Degree 2: 54.466308354556375
+
+Joint A Position: 24.58200612530171 --Joint B Position: 244.92638820851593Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 116.96650538024585 --Joint B Degree: -34.588006168907796
+
+Joint A Degree 2: 116.96650538024585 --Joint B Degree 2: 331.55451154915363
+
+Joint A Position: 342.70472641492154 --Joint B Position: 1033.0883884064815Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 5.263892235205838 --Joint B Degree: 135.98673041045168
+
+Joint A Degree 2: 5.263892235205838 --Joint B Degree 2: 49.27716182475415
+
+Joint A Position: 24.972849024585496 --Joint B Position: 230.16614919041183Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 173.72209091204104 --Joint B Degree: -1.8203939842310528
+
+Joint A Degree 2: 173.72209091204104 --Joint B Degree 2: 10.0
+
+Joint A Position: 504.1428363720279 --Joint B Position: 118.44444444444444Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 113.40294527392007 --Joint B Degree: -30.031490852184515
+
+Joint A Degree 2: 113.40294527392007 --Joint B Degree 2: 323.4344361261046
+
+Joint A Position: 332.5683776680393 --Joint B Position: 1009.9912849809197Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 113.85997270707567 --Joint B Degree: -50.13660904842672
+
+Joint A Degree 2: 113.85997270707567 --Joint B Degree 2: 343.9965817555024
+
+Joint A Position: 333.8683668112375 --Joint B Position: 1068.4791658823178Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 121.06506450702878 --Joint B Degree: -1.071928036860525
+
+Joint A Degree 2: 121.06506450702878 --Joint B Degree 2: 302.1369925438893
+
+Joint A Position: 354.3628501533263 --Joint B Position: 949.4118899026184Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 84.09183519389298 --Joint B Degree: -73.55273518946957
+
+Joint A Degree 2: 84.09183519389298 --Joint B Degree 2: 337.6445703833625
+
+Joint A Position: 249.1945534404067 --Joint B Position: 1050.4112224237867Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 132.45878030297976 --Joint B Degree: -12.437279939884318
+
+Joint A Degree 2: 132.45878030297976 --Joint B Degree 2: 324.8960602428641
+
+Joint A Position: 386.771641750698 --Joint B Position: 1014.1487935797024Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 141.63472807010453 --Joint B Degree: -5.746421309145701
+
+Joint A Degree 2: 141.63472807010453 --Joint B Degree 2: 327.38114937925025
+
+Joint A Position: 412.8721153994085 --Joint B Position: 1021.2174915676452Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 134.01987348556656 --Joint B Degree: -26.857759970215373
+
+Joint A Degree 2: 134.01987348556656 --Joint B Degree 2: 340.87763345578196
+
+Joint A Position: 391.2120845811671 --Joint B Position: 1059.6074907186687Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 89.66520972669475 --Joint B Degree: -75.62826696183983
+
+Joint A Degree 2: 89.66520972669475 --Joint B Degree 2: 345.29347668853455
+
+Joint A Position: 265.04770766704286 --Joint B Position: 1072.1681114696094Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 101.02206131175569 --Joint B Degree: -68.94580983632754
+
+Joint A Degree 2: 101.02206131175569 --Joint B Degree 2: 349.96787114808325
+
+Joint A Position: 297.35164106454954 --Joint B Position: 1085.4641668212146Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 136.3712952664052 --Joint B Degree: -4.141077492736724
+
+Joint A Degree 2: 136.3712952664052 --Joint B Degree 2: 320.51237275914195
+
+Joint A Position: 397.9005732022193 --Joint B Position: 1001.6796380704483Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 146.48855944900558 --Joint B Degree: 4.222928004879713
+
+Joint A Degree 2: 146.48855944900558 --Joint B Degree 2: 322.26563144412586
+
+Joint A Position: 426.67856909939366 --Joint B Position: 1006.6666849966247Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 119.87189156936262 --Joint B Degree: -35.21032760128351
+
+Joint A Degree 2: 119.87189156936262 --Joint B Degree 2: 335.0822191706461
+
+Joint A Position: 350.96893601952036 --Joint B Position: 1043.12275675206Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 135.55272735849334 --Joint B Degree: -8.708760564009708
+
+Joint A Degree 2: 135.55272735849334 --Joint B Degree 2: 324.2614879225031
+
+Joint A Position: 395.5722022641589 --Joint B Position: 1012.3437878684532Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 87.87315214357214 --Joint B Degree: -74.32230360945658
+
+Joint A Degree 2: 87.87315214357214 --Joint B Degree 2: 342.19545575302874
+
+Joint A Position: 259.95029943060524 --Joint B Position: 1063.3559630308373Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 2.2579930648623265 --Joint B Degree: 146.85318597178025
+
+Joint A Degree 2: 2.2579930648623265 --Joint B Degree 2: 35.40480709308208
+
+Joint A Position: 16.42273582894173 --Joint B Position: 190.70700684254456Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 121.91303225527054 --Joint B Degree: -22.260124451424925
+
+Joint A Degree 2: 121.91303225527054 --Joint B Degree 2: 324.17315670669547
+
+Joint A Position: 356.7748473038807 --Joint B Position: 1012.0925346323783Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 133.93622571210602 --Joint B Degree: -18.86034343912815
+
+Joint A Degree 2: 133.93622571210602 --Joint B Degree 2: 332.79656915123417
+
+Joint A Position: 390.97415313665715 --Joint B Position: 1036.6213522523994Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: -155.76081419526625 --Joint B Degree: 27.16688029146691
+
+Joint A Degree 2: -155.76081419526625 --Joint B Degree 2: 10.0
+
+Joint A Position: -433.05298259986847 --Joint B Position: 118.44444444444444Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 159.4192646466387 --Joint B Degree: 6.3570647986431315
+
+Joint A Degree 2: 159.4192646466387 --Joint B Degree 2: 333.06219984799554
+
+Joint A Position: 463.4592416615501 --Joint B Position: 1037.3769240120764Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 145.73405472892063 --Joint B Degree: -7.594180426023868
+
+Joint A Degree 2: 145.73405472892063 --Joint B Degree 2: 333.3282351549445
+
+Joint A Position: 424.5324223400409 --Joint B Position: 1038.1336466629532Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 135.63979355951125 --Joint B Degree: -37.86670862726835
+
+Joint A Degree 2: 135.63979355951125 --Joint B Degree 2: 10.0
+
+Joint A Position: 395.8198572359431 --Joint B Position: 118.44444444444444Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 161.68899428440025 --Joint B Degree: 5.234178223597188
+
+Joint A Degree 2: 161.68899428440025 --Joint B Degree 2: 336.45481606080307
+
+Joint A Position: 469.9153615200718 --Joint B Position: 1047.0270323507289Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 131.2425217895115 --Joint B Degree: 0.45195434847433036
+
+Joint A Degree 2: 131.2425217895115 --Joint B Degree 2: 310.7905674410372
+
+Joint A Position: 383.31206197905493 --Joint B Position: 974.0265029433947Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 135.97640651231032 --Joint B Degree: -5.355866069106369
+
+Joint A Degree 2: 135.97640651231032 --Joint B Degree 2: 321.33227258141665
+
+Joint A Position: 396.7773340794605 --Joint B Position: 1004.0117975649185Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 139.2362943564537 --Joint B Degree: -5.288870959631247
+
+Joint A Degree 2: 139.2362943564537 --Joint B Degree 2: 324.52516531608495
+
+Joint A Position: 406.0499039472461 --Joint B Position: 1013.0938035657528Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 119.96440264752756 --Joint B Degree: -18.716928748590963
+
+Joint A Degree 2: 119.96440264752756 --Joint B Degree 2: 318.68133139611854
+
+Joint A Position: 351.2320786418562 --Joint B Position: 996.4713426378484Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 119.20067694839122 --Joint B Degree: -25.85350581183202
+
+Joint A Degree 2: 119.20067694839122 --Joint B Degree 2: 325.0541827602232
+
+Joint A Position: 349.0597033198684 --Joint B Position: 1014.5985642957461Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 0.17091249364019742 --Joint B Degree: 123.24897297226224
+
+Joint A Degree 2: 0.17091249364019742 --Joint B Degree 2: 56.92193952137796
+
+Joint A Position: 10.486151093021006 --Joint B Position: 251.91129463858618Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 122.92653041058041 --Joint B Degree: -16.718510860612913
+
+Joint A Degree 2: 122.92653041058041 --Joint B Degree 2: 319.64504127119335
+
+Joint A Position: 359.6576865012065 --Joint B Position: 999.2125618380611Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 167.5656806225144 --Joint B Degree: -6.915505768841029
+
+Joint A Degree 2: 167.5656806225144 --Joint B Degree 2: 10.0
+
+Joint A Position: 486.63126932626324 --Joint B Position: 118.44444444444444Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 87.65144479221357 --Joint B Degree: -69.12545051639407
+
+Joint A Degree 2: 87.65144479221357 --Joint B Degree 2: 336.77689530860766
+
+Joint A Position: 259.31966518674085 --Joint B Position: 1047.9431688778172Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 122.21339644516003 --Joint B Degree: 1.4584882717775511
+
+Joint A Degree 2: 122.21339644516003 --Joint B Degree 2: 300.7549081733825
+
+Joint A Position: 357.6292165551219 --Joint B Position: 945.4806276931769Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 138.34481005489403 --Joint B Degree: 0.8016263906842949
+
+Joint A Degree 2: 138.34481005489403 --Joint B Degree 2: 317.5431836642097
+
+Joint A Position: 403.51412637836523 --Joint B Position: 993.2339446448632Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 98.10956186489234 --Joint B Degree: -54.055211162044785
+
+Joint A Degree 2: 98.10956186489234 --Joint B Degree 2: 332.1647730269371
+
+Joint A Position: 289.06719819347154 --Joint B Position: 1034.824243276621Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 140.5359343683757 --Joint B Degree: -25.98818771473283
+
+Joint A Degree 2: 140.5359343683757 --Joint B Degree 2: 346.5241220831085
+
+Joint A Position: 409.7466577589354 --Joint B Position: 1075.6686139252865Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 124.72125948186816 --Joint B Degree: 2.891172919753361
+
+Joint A Degree 2: 124.72125948186816 --Joint B Degree 2: 301.8300865621148
+
+Joint A Position: 364.7626936373139 --Joint B Position: 948.5389128877932Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 134.9608066623744 --Joint B Degree: -19.69165482279063
+
+Joint A Degree 2: 134.9608066623744 --Joint B Degree 2: 334.6524614851651
+
+Joint A Position: 393.88851672853167 --Joint B Position: 1041.9003348911363Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 119.44023097837677 --Joint B Degree: -17.502073905554077
+
+Joint A Degree 2: 119.44023097837677 --Joint B Degree 2: 316.9423048839309
+
+Joint A Position: 349.7411014496051 --Joint B Position: 991.5247783365146Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 148.46376929151882 --Joint B Degree: -17.48931731991601
+
+Joint A Degree 2: 148.46376929151882 --Joint B Degree 2: 345.95308661143486
+
+Joint A Position: 432.2969437625424 --Joint B Position: 1074.0443352503037Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 137.03361872776958 --Joint B Degree: -37.01160176574159
+
+Joint A Degree 2: 137.03361872776958 --Joint B Degree 2: 10.0
+
+Joint A Position: 399.7845154923224 --Joint B Position: 118.44444444444444Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 141.04585488693473 --Joint B Degree: 2.834052810240447
+
+Joint A Degree 2: 141.04585488693473 --Joint B Degree 2: 318.2118020766943
+
+Joint A Position: 411.1970983450588 --Joint B Position: 995.1357925737083Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 145.26724753093717 --Joint B Degree: -25.85722534606788
+
+Joint A Degree 2: 145.26724753093717 --Joint B Degree 2: 10.0
+
+Joint A Position: 423.2046151991102 --Joint B Position: 118.44444444444444Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 178.07518103593108 --Joint B Degree: 8.674419446533339
+
+Joint A Degree 2: 178.07518103593108 --Joint B Degree 2: 349.40076158939775
+
+Joint A Position: 516.5249593910928 --Joint B Position: 1083.8510551876202Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 102.38985737860747 --Joint B Degree: -48.40860690152916
+
+Joint A Degree 2: 102.38985737860747 --Joint B Degree 2: 330.7984642801366
+
+Joint A Position: 301.24226098803905 --Joint B Position: 1030.9378539523887Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 116.63800249947829 --Joint B Degree: -33.452175479861765
+
+Joint A Degree 2: 116.63800249947829 --Joint B Degree 2: 330.09017797934007
+
+Joint A Position: 341.77031822073826 --Joint B Position: 1028.923172919012Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 110.39522838879665 --Joint B Degree: -40.001695877256154
+
+Joint A Degree 2: 110.39522838879665 --Joint B Degree 2: 330.3969242660528
+
+Joint A Position: 324.01309408368826 --Joint B Position: 1029.7956956901057Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 124.21149677692776 --Joint B Degree: -27.050446886984552
+
+Joint A Degree 2: 124.21149677692776 --Joint B Degree 2: 331.26194366391235
+
+Joint A Position: 363.3127019432612 --Joint B Position: 1032.256195310684Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 106.25353063691617 --Joint B Degree: -52.763925202310006
+
+Joint A Degree 2: 106.25353063691617 --Joint B Degree 2: 339.01745583922616
+
+Joint A Position: 312.23226492278377 --Joint B Position: 1054.3163188315766Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 154.0061529343189 --Joint B Degree: -0.6734904875491605
+
+Joint A Degree 2: 154.0061529343189 --Joint B Degree 2: 334.67964342186804
+
+Joint A Position: 448.0619461242849 --Joint B Position: 1041.9776523999803Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 174.04255606379832 --Joint B Degree: 3.4862921519342853
+
+Joint A Degree 2: 174.04255606379832 --Joint B Degree 2: 10.0
+
+Joint A Position: 505.0543816925819 --Joint B Position: 118.44444444444444Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 117.1880442504001 --Joint B Degree: -24.05515635047328
+
+Joint A Degree 2: 117.1880442504001 --Joint B Degree 2: 321.24320060087337
+
+Joint A Position: 343.3348814233603 --Joint B Position: 1003.7584372647065Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 139.99301454149287 --Joint B Degree: -35.60873973287325
+
+Joint A Degree 2: 139.99301454149287 --Joint B Degree 2: 10.0
+
+Joint A Position: 408.2023524735797 --Joint B Position: 118.44444444444444Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 148.58590418095093 --Joint B Degree: -26.916488483514318
+
+Joint A Degree 2: 148.58590418095093 --Joint B Degree 2: 10.0
+
+Joint A Position: 432.64434967026045 --Joint B Position: 118.44444444444444Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 99.14339577365945 --Joint B Degree: -67.58702617060565
+
+Joint A Degree 2: 99.14339577365945 --Joint B Degree 2: 346.7304219442651
+
+Joint A Position: 292.00788131174244 --Joint B Position: 1076.2554224192431Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 177.16681871714363 --Joint B Degree: 9.742502859013895
+
+Joint A Degree 2: 177.16681871714363 --Joint B Degree 2: 347.4243158581297
+
+Joint A Position: 513.9411732398753 --Joint B Position: 1078.2291651075689Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 150.56794342476675 --Joint B Degree: -24.21721458264352
+
+Joint A Degree 2: 150.56794342476675 --Joint B Degree 2: 10.0
+
+Joint A Position: 438.2821501860032 --Joint B Position: 118.44444444444444Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 153.33139946075462 --Joint B Degree: 4.7797436321703675
+
+Joint A Degree 2: 153.33139946075462 --Joint B Degree 2: 328.5516558285842
+
+Joint A Position: 446.1426473550354 --Joint B Position: 1024.5469321346395Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 94.92272256076012 --Joint B Degree: -58.45527040554903
+
+Joint A Degree 2: 94.92272256076012 --Joint B Degree 2: 333.37799296630914
+
+Joint A Position: 280.00241083949544 --Joint B Position: 1038.275179993057Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 6.462258443716514 --Joint B Degree: 128.94547246064658
+
+Joint A Degree 2: 6.462258443716514 --Joint B Degree 2: 57.51678598306993
+
+Joint A Position: 28.38153512879364 --Joint B Position: 253.60330235184335Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 122.38613731914835 --Joint B Degree: -13.219699711268017
+
+Joint A Degree 2: 122.38613731914835 --Joint B Degree 2: 315.60583703041635
+
+Joint A Position: 358.1205683744664 --Joint B Position: 987.7232697754066Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 133.79971174227987 --Joint B Degree: -6.091159828427535
+
+Joint A Degree 2: 133.79971174227987 --Joint B Degree 2: 319.8908715707074
+
+Joint A Position: 390.5858467335961 --Joint B Position: 999.91181246779Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: -173.26138471710854 --Joint B Degree: 10.702387365375124
+
+Joint A Degree 2: -173.26138471710854 --Joint B Degree 2: 10.0
+
+Joint A Position: -482.832383195331 --Joint B Position: 118.44444444444444Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 164.0595848266207 --Joint B Degree: 4.909895943845627
+
+Joint A Degree 2: 164.0595848266207 --Joint B Degree 2: 339.1496888827751
+
+Joint A Position: 476.6583746179433 --Joint B Position: 1054.6924483776713Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 164.63245387529838 --Joint B Degree: 3.048448629941445
+
+Joint A Degree 2: 164.63245387529838 --Joint B Degree 2: 341.58400524535693
+
+Joint A Position: 478.28786880084874 --Joint B Position: 1061.6167260312377Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 121.63229269338758 --Joint B Degree: -34.46432537182382
+
+Joint A Degree 2: 121.63229269338758 --Joint B Degree 2: 336.0966180652114
+
+Joint A Position: 355.9762992167469 --Joint B Position: 1046.008158052157Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: -172.72577993465308 --Joint B Degree: 13.393796005670348
+
+Joint A Degree 2: -172.72577993465308 --Joint B Degree 2: 10.0
+
+Joint A Position: -481.30888514745766 --Joint B Position: 118.44444444444444Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 110.45066201925066 --Joint B Degree: -62.5362963590979
+
+Joint A Degree 2: 110.45066201925066 --Joint B Degree 2: 10.0
+
+Joint A Position: 324.17077196586854 --Joint B Position: 118.44444444444444Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 168.463594933826 --Joint B Degree: -8.621570786428233
+
+Joint A Degree 2: 168.463594933826 --Joint B Degree 2: 10.0
+
+Joint A Position: 489.1853367006606 --Joint B Position: 118.44444444444444Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 142.6094619185025 --Joint B Degree: -18.783185748343705
+
+Joint A Degree 2: 142.6094619185025 --Joint B Degree 2: 341.3926476668462
+
+Joint A Position: 415.644691679296 --Joint B Position: 1061.0724200301402Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 134.24238851455465 --Joint B Degree: -21.230209639572966
+
+Joint A Degree 2: 134.24238851455465 --Joint B Degree 2: 335.4725981541276
+
+Joint A Position: 391.8450162191777 --Joint B Position: 1044.233168082852Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 156.19450877962848 --Joint B Degree: -16.115438841735063
+
+Joint A Degree 2: 156.19450877962848 --Joint B Degree 2: 10.0
+
+Joint A Position: 454.28660275094325 --Joint B Position: 118.44444444444444Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 130.68264525403833 --Joint B Degree: -11.25748641081278
+
+Joint A Degree 2: 130.68264525403833 --Joint B Degree 2: 321.94013166485115
+
+Joint A Position: 381.7195242781535 --Joint B Position: 1005.7408189577989Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 144.1848591409715 --Joint B Degree: 2.8137114511234236
+
+Joint A Degree 2: 144.1848591409715 --Joint B Degree 2: 321.37114768984804
+
+Joint A Position: 420.12582155654115 --Joint B Position: 1004.1223756511233Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 127.67837901333498 --Joint B Degree: -6.947602927229494
+
+Joint A Degree 2: 127.67837901333498 --Joint B Degree 2: 314.6259819405645
+
+Joint A Position: 373.1740558601528 --Joint B Position: 984.9361264087167Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 88.63746729233928 --Joint B Degree: -73.10919705665904
+
+Joint A Degree 2: 88.63746729233928 --Joint B Degree 2: 341.7466643489983
+
+Joint A Position: 262.12435140932064 --Joint B Position: 1062.0794008149287Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 170.06400208379185 --Joint B Degree: 7.388698120535352
+
+Joint A Degree 2: 170.06400208379185 --Joint B Degree 2: 342.6753039632565
+
+Joint A Position: 493.73760592723016 --Joint B Position: 1064.7208646065965Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 132.25946573019442 --Joint B Degree: -12.052159673581265
+
+Joint A Degree 2: 132.25946573019442 --Joint B Degree 2: 324.3116254037757
+
+Joint A Position: 386.2047025214419 --Joint B Position: 1012.4864011485175Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 116.00569714366478 --Joint B Degree: -48.16989060788311
+
+Joint A Degree 2: 116.00569714366478 --Joint B Degree 2: 344.1755877515479
+
+Joint A Position: 339.97176076420203 --Joint B Position: 1068.9883384932918Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 145.97300264667146 --Joint B Degree: -1.6968512874634878
+
+Joint A Degree 2: 145.97300264667146 --Joint B Degree 2: 327.66985393413495
+
+Joint A Position: 425.21209641719884 --Joint B Position: 1022.0386956348727Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 105.77256289435716 --Joint B Degree: -64.48985636863918
+
+Joint A Degree 2: 105.77256289435716 --Joint B Degree 2: 10.0
+
+Joint A Position: 310.86417889950485 --Joint B Position: 118.44444444444444Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 98.63217848089029 --Joint B Degree: -59.56741523518264
+
+Joint A Degree 2: 98.63217848089029 --Joint B Degree 2: 338.1995937160729
+
+Joint A Position: 290.5537521234213 --Joint B Position: 1051.989955459052Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 11.428776002136662 --Joint B Degree: 120.30262545405473
+
+Joint A Degree 2: 11.428776002136662 --Joint B Degree 2: 71.12615054808192
+
+Joint A Position: 42.50851840607761 --Joint B Position: 292.31438378121084Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: -177.88311479807047 --Joint B Degree: 8.493126455218608
+
+Joint A Degree 2: -177.88311479807047 --Joint B Degree 2: 10.0
+
+Joint A Position: -495.9786376478449 --Joint B Position: 118.44444444444444Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 143.97740457492867 --Joint B Degree: -26.874828440357632
+
+Joint A Degree 2: 143.97740457492867 --Joint B Degree 2: 10.0
+
+Joint A Position: 419.535728568686 --Joint B Position: 118.44444444444444Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 157.08646337951447 --Joint B Degree: -9.13793408381577
+
+Joint A Degree 2: 157.08646337951447 --Joint B Degree 2: 346.2243974633302
+
+Joint A Position: 456.82371805728565 --Joint B Position: 1074.8160638956947Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 117.16428437431927 --Joint B Degree: -41.897226307916334
+
+Joint A Degree 2: 117.16428437431927 --Joint B Degree 2: 339.0615106822356
+
+Joint A Position: 343.2672977758415 --Joint B Position: 1054.4416303850257Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 1.381020435363366 --Joint B Degree: 141.7585409662618
+
+Joint A Degree 2: 1.381020435363366 --Joint B Degree 2: 39.62247946910158
+
+Joint A Position: 13.928235905033574 --Joint B Position: 202.70394160100005Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 6.956535858985002 --Joint B Degree: 131.962669774232
+
+Joint A Degree 2: 6.956535858985002 --Joint B Degree 2: 54.99386608475299
+
+Joint A Position: 29.78747977666845 --Joint B Position: 246.4269968632974Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 137.60146501141705 --Joint B Degree: -36.83542128865473
+
+Joint A Degree 2: 137.60146501141705 --Joint B Degree 2: 10.0
+
+Joint A Position: 401.3997226991418 --Joint B Position: 118.44444444444444Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 124.63810468037755 --Joint B Degree: -37.81852412602648
+
+Joint A Degree 2: 124.63810468037755 --Joint B Degree 2: 342.45662880640407
+
+Joint A Position: 364.526164424185 --Joint B Position: 1064.0988552715494Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 138.78788923381128 --Joint B Degree: -5.2729516024248735
+
+Joint A Degree 2: 138.78788923381128 --Joint B Degree 2: 324.06084083623614
+
+Joint A Position: 404.77444048728546 --Joint B Position: 1011.7730583786273Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 108.81342710847069 --Joint B Degree: -42.07310750043549
+
+Joint A Degree 2: 108.81342710847069 --Joint B Degree 2: 330.8865346089062
+
+Joint A Position: 319.51374821965 --Joint B Position: 1031.1883651097776Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 134.6561561709973 --Joint B Degree: -3.3899959023008277
+
+Joint A Degree 2: 134.6561561709973 --Joint B Degree 2: 318.0461520732981
+
+Joint A Position: 393.02195533083676 --Joint B Position: 994.6646103418258Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 153.3378447871063 --Joint B Degree: 4.1797930150034075
+
+Joint A Degree 2: 153.3378447871063 --Joint B Degree 2: 329.1580517721029
+
+Joint A Position: 446.160980727769 --Joint B Position: 1026.271791707315Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 82.52983033121681 --Joint B Degree: -73.43854029419346
+
+Joint A Degree 2: 82.52983033121681 --Joint B Degree 2: 335.9683706254103
+
+Joint A Position: 244.7515173865723 --Joint B Position: 1045.6433653345002Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 6.836649964918254 --Joint B Degree: 121.4073652802956
+
+Joint A Degree 2: 6.836649964918254 --Joint B Degree 2: 65.42928468462266
+
+Joint A Position: 29.446471011323034 --Joint B Position: 276.1099653251489Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 148.55283497152095 --Joint B Degree: -25.052994886058258
+
+Joint A Degree 2: 148.55283497152095 --Joint B Degree 2: 10.0
+
+Joint A Position: 432.55028614121517 --Joint B Position: 118.44444444444444Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 136.09072559591272 --Joint B Degree: -7.780040525195059
+
+Joint A Degree 2: 136.09072559591272 --Joint B Degree 2: 323.87076612110775
+
+Joint A Position: 397.1025083617073 --Joint B Position: 1011.2324014111509Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 4.942315537715618 --Joint B Degree: 135.54137212484054
+
+Joint A Degree 2: 4.942315537715618 --Joint B Degree 2: 49.40094341287508
+
+Joint A Position: 24.058141973946647 --Joint B Position: 230.5182390410669Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 103.28565302874995 --Joint B Degree: -45.29389418134957
+
+Joint A Degree 2: 103.28565302874995 --Joint B Degree 2: 328.5795472100995
+
+Joint A Position: 303.7903019484443 --Joint B Position: 1024.6262676198387Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 141.95392259709078 --Joint B Degree: -1.4448803101511103
+
+Joint A Degree 2: 141.95392259709078 --Joint B Degree 2: 323.39880290724193
+
+Joint A Position: 413.7800464983916 --Joint B Position: 1009.8899282694882Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 6.784036181278801 --Joint B Degree: 123.55212968453026
+
+Joint A Degree 2: 6.784036181278801 --Joint B Degree 2: 63.23190649674854
+
+Joint A Position: 29.296814026748592 --Joint B Position: 269.859645146307Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 109.49627350681 --Joint B Degree: -45.03948461765247
+
+Joint A Degree 2: 109.49627350681 --Joint B Degree 2: 334.53575812446246
+
+Joint A Position: 321.4560668638151 --Joint B Position: 1041.5683786651377Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 135.66687130942427 --Joint B Degree: -28.391164288208067
+
+Joint A Degree 2: 135.66687130942427 --Joint B Degree 2: 344.05803559763234
+
+Joint A Position: 395.8968783912513 --Joint B Position: 1068.6539679221542Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 119.30564186384017 --Joint B Degree: -25.49725108747734
+
+Joint A Degree 2: 119.30564186384017 --Joint B Degree 2: 324.8028929513175
+
+Joint A Position: 349.3582701904787 --Joint B Position: 1013.8837843948587Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 168.3345280105602 --Joint B Degree: 2.254416334438387
+
+Joint A Degree 2: 168.3345280105602 --Joint B Degree 2: 346.0801116761218
+
+Joint A Position: 488.8182130078157 --Joint B Position: 1074.4056509898578Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 116.03159633712471 --Joint B Degree: -30.996518851806307
+
+Joint A Degree 2: 116.03159633712471 --Joint B Degree 2: 327.028115188931
+
+Joint A Position: 340.04542958115474 --Joint B Position: 1020.2133054262927Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 127.79452910451954 --Joint B Degree: -11.864105405479558
+
+Joint A Degree 2: 127.79452910451954 --Joint B Degree 2: 319.6586345099991
+
+Joint A Position: 373.5044383417445 --Joint B Position: 999.2512270506642Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 127.28819597578311 --Joint B Degree: -13.412092263659547
+
+Joint A Degree 2: 127.28819597578311 --Joint B Degree 2: 320.70028823944267
+
+Joint A Position: 372.064201886672 --Joint B Position: 1002.2141532144148Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 166.08234615307646 --Joint B Degree: 6.976911151069302
+
+Joint A Degree 2: 166.08234615307646 --Joint B Degree 2: 339.10543500200714
+
+Joint A Position: 482.4120068354175 --Joint B Position: 1054.5665706723757Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 113.57564036726006 --Joint B Degree: -50.12998042023987
+
+Joint A Degree 2: 113.57564036726006 --Joint B Degree 2: 343.7056207874999
+
+Joint A Position: 333.0595992668731 --Joint B Position: 1067.6515435733331Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 124.55893062277977 --Joint B Degree: -34.907448087682326
+
+Joint A Degree 2: 124.55893062277977 --Joint B Degree 2: 339.4663787104621
+
+Joint A Position: 364.3009582159069 --Joint B Position: 1055.5932549986478Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 126.30103904022445 --Joint B Degree: -24.197982686030247
+
+Joint A Degree 2: 126.30103904022445 --Joint B Degree 2: 330.4990217262547
+
+Joint A Position: 369.25628882552735 --Joint B Position: 1030.0861062435688Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 109.50119875266262 --Joint B Degree: -61.302473030054614
+
+Joint A Degree 2: 109.50119875266262 --Joint B Degree 2: 10.0
+
+Joint A Position: 321.47007645201813 --Joint B Position: 118.44444444444444Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 159.93023020223055 --Joint B Degree: 2.404627967394588
+
+Joint A Degree 2: 159.93023020223055 --Joint B Degree 2: 337.52560223483596
+
+Joint A Position: 464.9126547974558 --Joint B Position: 1050.0728241346446Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 112.43205623193089 --Joint B Degree: -31.641130680076767
+
+Joint A Degree 2: 112.43205623193089 --Joint B Degree 2: 324.07318691200766
+
+Joint A Position: 329.8067377263812 --Joint B Position: 1011.8081761052663Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 136.34654418137526 --Joint B Degree: -7.42232908133237
+
+Joint A Degree 2: 136.34654418137526 --Joint B Degree 2: 323.76887326270764
+
+Joint A Position: 397.83017011591187 --Joint B Position: 1010.9425728361463Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 122.37891785373307 --Joint B Degree: -18.221256136445255
+
+Joint A Degree 2: 122.37891785373307 --Joint B Degree 2: 320.6001739901783
+
+Joint A Position: 358.1000330061741 --Joint B Position: 1001.929383794285Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 130.92804690112328 --Joint B Degree: -37.18649772142972
+
+Joint A Degree 2: 130.92804690112328 --Joint B Degree 2: 348.114544622553
+
+Joint A Position: 382.4175556298618 --Joint B Position: 1080.1924824819284Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 97.13073037906007 --Joint B Degree: -72.99750699234205
+
+Joint A Degree 2: 97.13073037906007 --Joint B Degree 2: 10.0
+
+Joint A Position: 286.28296641154867 --Joint B Position: 118.44444444444444Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 134.18977693229934 --Joint B Degree: -18.40738666059743
+
+Joint A Degree 2: 134.18977693229934 --Joint B Degree 2: 332.5971635928968
+
+Joint A Position: 391.6953654963181 --Joint B Position: 1036.0541542197952Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 124.43450301380615 --Joint B Degree: -9.164590238115004
+
+Joint A Degree 2: 124.43450301380615 --Joint B Degree 2: 313.59909325192115
+
+Joint A Position: 363.9470307948264 --Joint B Position: 982.0151985832424Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 122.86084530608727 --Joint B Degree: -40.3431439953602
+
+Joint A Degree 2: 122.86084530608727 --Joint B Degree 2: 343.20398930144745
+
+Joint A Position: 359.47084887064824 --Joint B Position: 1066.224680679673Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: -172.67528344961633 --Joint B Degree: 9.133082634214016
+
+Joint A Degree 2: -172.67528344961633 --Joint B Degree 2: 10.0
+
+Joint A Position: -481.1652507011309 --Joint B Position: 118.44444444444444Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 145.47815592283624 --Joint B Degree: -18.097602831763982
+
+Joint A Degree 2: 145.47815592283624 --Joint B Degree 2: 343.5757587546002
+
+Joint A Position: 423.8045324027342 --Joint B Position: 1067.2821582353072Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 110.71224063321647 --Joint B Degree: -35.39935390340421
+
+Joint A Degree 2: 110.71224063321647 --Joint B Degree 2: 326.11159453662066
+
+Joint A Position: 324.91481780114907 --Joint B Position: 1017.6063133486099Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 149.25868293823058 --Joint B Degree: -14.569675370141882
+
+Joint A Degree 2: 149.25868293823058 --Joint B Degree 2: 343.82835830837246
+
+Joint A Position: 434.5580314687448 --Joint B Position: 1068.000663632704Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 174.17244050215814 --Joint B Degree: 8.860650349989976
+
+Joint A Degree 2: 174.17244050215814 --Joint B Degree 2: 345.31179015216816
+
+Joint A Position: 505.42383076169426 --Joint B Position: 1072.2202030995006Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 109.75914268601305 --Joint B Degree: -41.75446382457079
+
+Joint A Degree 2: 109.75914268601305 --Joint B Degree 2: 331.5136065105838
+
+Joint A Position: 322.2037836402149 --Joint B Position: 1032.9720362967719Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 129.93050626570232 --Joint B Degree: -26.450868465693688
+
+Joint A Degree 2: 129.93050626570232 --Joint B Degree 2: 336.381374731396
+
+Joint A Position: 379.58010671133104 --Joint B Position: 1046.8181325693042Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 107.17474812446463 --Joint B Degree: -43.311318058493846
+
+Joint A Degree 2: 107.17474812446463 --Joint B Degree 2: 330.48606618295844
+
+Joint A Position: 314.8526168873661 --Joint B Position: 1030.049254920415Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 8.270118040110642 --Joint B Degree: 124.62502458758873
+
+Joint A Degree 2: 8.270118040110642 --Joint B Degree 2: 63.64509345252192
+
+Joint A Position: 33.523891314092495 --Joint B Position: 271.0349324871735Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 150.19001962485535 --Joint B Degree: -20.9824256694244
+
+Joint A Degree 2: 150.19001962485535 --Joint B Degree 2: 10.0
+
+Joint A Position: 437.2071669329219 --Joint B Position: 118.44444444444444Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 137.05639928180562 --Joint B Degree: -2.675907989879379
+
+Joint A Degree 2: 137.05639928180562 --Joint B Degree 2: 319.73230727168504
+
+Joint A Position: 399.8493135126916 --Joint B Position: 999.4607851283486Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 148.36165802743702 --Joint B Degree: 3.815510643820514
+
+Joint A Degree 2: 148.36165802743702 --Joint B Degree 2: 324.54614738361647
+
+Joint A Position: 432.00649394470975 --Joint B Position: 1013.1534858911758Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 156.79704581781277 --Joint B Degree: -7.100818412249005
+
+Joint A Degree 2: 156.79704581781277 --Joint B Degree 2: 343.89786423006177
+
+Joint A Position: 456.00048588177856 --Joint B Position: 1068.198369365509Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 136.62878736962116 --Joint B Degree: -14.410139057112628
+
+Joint A Degree 2: 136.62878736962116 --Joint B Degree 2: 331.0389264267338
+
+Joint A Position: 398.63299518470023 --Joint B Position: 1031.621835169376Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 153.80378944133784 --Joint B Degree: -23.471804218561754
+
+Joint A Degree 2: 153.80378944133784 --Joint B Degree 2: 10.0
+
+Joint A Position: 447.4863344109165 --Joint B Position: 118.44444444444444Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 167.09421384227875 --Joint B Degree: -2.542670464493643
+
+Joint A Degree 2: 167.09421384227875 --Joint B Degree 2: 349.6368843067724
+
+Joint A Position: 485.29020826248177 --Joint B Position: 1084.5226931392638Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 172.3013799317211 --Joint B Degree: 6.791542799053166
+
+Joint A Degree 2: 172.3013799317211 --Joint B Degree 2: 345.50983713266794
+
+Joint A Position: 500.1017029168956 --Joint B Position: 1072.7835367329221Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 125.59149563006744 --Joint B Degree: -37.38945055786184
+
+Joint A Degree 2: 125.59149563006744 --Joint B Degree 2: 342.98094618792925
+
+Joint A Position: 367.23803201441405 --Joint B Position: 1065.5902469345542Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 96.29160819152524 --Joint B Degree: -65.70911842791854
+
+Joint A Degree 2: 96.29160819152524 --Joint B Degree 2: 342.0007266194438
+
+Joint A Position: 283.89612996700515 --Joint B Position: 1062.8020668286404Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 94.99539667711913 --Joint B Degree: -58.31749998909088
+
+Joint A Degree 2: 94.99539667711913 --Joint B Degree 2: 333.31289666621
+
+Joint A Position: 280.2091283260278 --Joint B Position: 1038.0900171838862Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 173.8704932234241 --Joint B Degree: 7.035040100710494
+
+Joint A Degree 2: 173.8704932234241 --Joint B Degree 2: 346.8354531227136
+
+Joint A Position: 504.5649585021841 --Joint B Position: 1076.5541777712742Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 148.5644672497449 --Joint B Degree: 1.224513752288891
+
+Joint A Degree 2: 148.5644672497449 --Joint B Degree 2: 327.339953497456
+
+Joint A Position: 432.5833735103855 --Joint B Position: 1021.1003121705415Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 141.9447114422349 --Joint B Degree: -16.500910289567173
+
+Joint A Degree 2: 141.9447114422349 --Joint B Degree 2: 338.4456217318021
+
+Joint A Position: 413.75384588013486 --Joint B Position: 1052.6897684815704Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 153.1025997038621 --Joint B Degree: -14.251923987463742
+
+Joint A Degree 2: 153.1025997038621 --Joint B Degree 2: 347.3545236913259
+
+Joint A Position: 445.4918391576522 --Joint B Position: 1078.0306451664383Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 100.80614674419601 --Joint B Degree: -58.903661410914225
+
+Joint A Degree 2: 100.80614674419601 --Joint B Degree 2: 339.70980815511024
+
+Joint A Position: 296.7374840723798 --Joint B Position: 1056.2856765300912Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 118.7650711193609 --Joint B Degree: -18.13821977520993
+
+Joint A Degree 2: 118.7650711193609 --Joint B Degree 2: 316.90329089457083
+
+Joint A Position: 347.82064673951544 --Joint B Position: 991.4138052112237Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 156.90015108132766 --Joint B Degree: -1.4021440995158154
+
+Joint A Degree 2: 156.90015108132766 --Joint B Degree 2: 338.3022951808435
+
+Joint A Position: 456.2937630757765 --Joint B Position: 1052.2820840699549Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 9.034700590752523 --Joint B Degree: 127.06794822848663
+
+Joint A Degree 2: 9.034700590752523 --Joint B Degree 2: 61.96675236226589
+
+Joint A Position: 35.69870390258495 --Joint B Position: 266.26098449711185Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 130.12491951589624 --Joint B Degree: -29.538474372093688
+
+Joint A Degree 2: 130.12491951589624 --Joint B Degree 2: 339.6633938879899
+
+Joint A Position: 380.1331044007715 --Joint B Position: 1056.153653725838Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 96.93134093224177 --Joint B Degree: -53.08415301837208
+
+Joint A Degree 2: 96.93134093224177 --Joint B Degree 2: 330.01549395061386
+
+Joint A Position: 285.71581420726545 --Joint B Position: 1028.7107383484126Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 149.25309930834456 --Joint B Degree: -8.945830971617859
+
+Joint A Degree 2: 149.25309930834456 --Joint B Degree 2: 338.1989302799624
+
+Joint A Position: 434.5421491437356 --Joint B Position: 1051.9880683518932Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 83.79651738653551 --Joint B Degree: -74.15660956294838
+
+Joint A Degree 2: 83.79651738653551 --Joint B Degree 2: 337.9531269494839
+
+Joint A Position: 248.35453834392325 --Joint B Position: 1051.2888944340875Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 2.0897735556770587 --Joint B Degree: 127.5906504712344
+
+Joint A Degree 2: 2.0897735556770587 --Joint B Degree 2: 54.49912308444266
+
+Joint A Position: 15.944244780592523 --Joint B Position: 245.0197278846369Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 3.7092191185810037 --Joint B Degree: 132.87251760563504
+
+Joint A Degree 2: 3.7092191185810037 --Joint B Degree 2: 50.836701512945965
+
+Joint A Position: 20.550667715074855 --Joint B Position: 234.60217319237964Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 101.99403572292714 --Joint B Degree: -49.23840483575501
+
+Joint A Degree 2: 101.99403572292714 --Joint B Degree 2: 331.23244055868213
+
+Joint A Position: 300.1163682785483 --Joint B Position: 1032.1722753669183Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 105.03276559189958 --Joint B Degree: -51.32795755007768
+
+Joint A Degree 2: 105.03276559189958 --Joint B Degree 2: 336.36072314197725
+
+Joint A Position: 308.75986657251434 --Joint B Position: 1046.759390270513Initial B Pot: 90.0
+X: 0.0, Y:0.0
+
+Joint A Degree: 143.79452148275894 --Joint B Degree: -23.141624756251037
+
+Joint A Degree 2: 143.79452148275894 --Joint B Degree 2: 346.93614623901
+
+Joint A Position: 419.015527773181 --Joint B Position: 1076.8405937465172Initial B Pot: 90.0

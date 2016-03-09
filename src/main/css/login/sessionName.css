@@ -1,0 +1,6 @@
+.text-field{
+	-fx-text-fill: black;
+	-fx-background-color: white;
+	-fx-background-radius: 0;
+	-fx-font-size: 20;
+}

@@ -22,22 +22,22 @@ public class MockGUI extends Application{
 	
 	public void start(Stage stage) throws Exception {
 		
-//		Thread fakeRobot = new Thread(fakebot = new Fbot());
-//		fakeRobot.start();
+		Thread fakeRobot = new Thread(fakebot = new Fbot());
+		fakeRobot.start();
 		
 		GridPane mainPane = new GridPane();
 		
-//		DataServerWebClient client = new DataServerWebClient(new URL(URL));
-//		client.pushSchema(ArmStatus.ARM_STATUS_SCHEMA);
-//		ArmStatus arm = new ArmStatus("test_arm", client);
+		DataServerWebClient client = new DataServerWebClient(new URL(URL));
+		client.pushSchema(ArmStatus.ARM_STATUS_SCHEMA);
+		ArmStatus arm = new ArmStatus("test_arm", client);
 		
-//		ArmDisplay display = new ArmDisplay();
-//		mainPane.add(display, 0, 0);
+		ArmDisplay display = new ArmDisplay(600, 500);
+		mainPane.add(display, 0, 0);
 		
-		mainPane.add(new Shooter3D(), 1, 0);
+//		mainPane.add(new Shooter3D(), 1, 0);
 		
-//		ArmDataDriver driver = new ArmDataDriver(client, arm, display);
-//		driver.launch();
+		ArmDataDriver driver = new ArmDataDriver(client, arm, display);
+		driver.launch();
 		
 		Scene mainScene = new Scene(mainPane);
 		stage.setScene(mainScene);
