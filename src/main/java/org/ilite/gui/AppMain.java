@@ -14,14 +14,20 @@ import javafx.scene.layout.VBox;
 import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 
+import org.ilite.gui.drivers.ArmDataDriver;
+import org.ilite.gui.drivers.ShooterDataDriver;
 import org.ilite.gui.vision.VisionFeed;
 import org.ilite.gui.widget.armDisplay.ArmDisplay;
 import org.ilite.gui.widget.shooter.Shooter3D;
 
+import dataclient.DataServerWebClient;
+import dataclient.robotdata.arm.ArmStatus;
+import dataclient.robotdata.shooter.ShooterStatus;
+
 public class AppMain extends Application{
 
-	public static final int ARM_WIDTH = 350;
-	public static final int ARM_HEIGHT = 350;
+	public static final int ARM_WIDTH = 300;
+	public static final int ARM_HEIGHT = 300;
 	
 	private VisionFeed feed;
 	
@@ -33,6 +39,8 @@ public class AppMain extends Application{
 	
 	@Override
 	public void start(Stage primaryStage) throws Exception {
+		primaryStage.setY(100);
+		primaryStage.setResizable(false);
 		sessionNameField = new TextField();
 		sessionNameField.getStyleClass().setAll("text-field");
 		sessionNameField.setPromptText("Session Name");
@@ -47,19 +55,25 @@ public class AppMain extends Application{
 			public void handle(KeyEvent arg0) {
 				if(arg0.getCode() == KeyCode.ENTER){
 					primaryStage.hide();
+					DataServerWebClient client = new DataServerWebClient("http://localhost:8083");
+
 					ArmDisplay armRepresentation = new ArmDisplay(ARM_WIDTH, ARM_HEIGHT);
-					StackPane.setAlignment(armRepresentation, Pos.BOTTOM_LEFT);
-					armRepresentation.setOpacity(0.7);
+					ArmDataDriver driver = new ArmDataDriver(client, new ArmStatus(client), armRepresentation);
+					driver.launch();
 					
 					feed = new VisionFeed(FEED_WIDTH, FEED_HEIGHT, sessionNameField.getText(), true);
 					
+					Shooter3D shooterRepresentation = new Shooter3D(ARM_WIDTH, Color.DARKVIOLET, primaryStage, FEED_WIDTH + 3, ARM_HEIGHT + 25);
+					ShooterDataDriver shooterDriver = new ShooterDataDriver(client, new ShooterStatus(client), shooterRepresentation);
+					shooterDriver.launch();
+					
 					BorderPane mainPane = new BorderPane();
 					
-					mainPane.setRight(new VBox(armRepresentation, new Shooter3D(ARM_WIDTH, Color.DARKVIOLET, primaryStage, FEED_WIDTH, 0)));
+					mainPane.setRight(new VBox(armRepresentation, shooterRepresentation));
 					mainPane.setCenter(feed.getFeed());
 					primaryStage.setScene(new Scene(mainPane));
 					primaryStage.setWidth(FEED_WIDTH + ARM_WIDTH);
-					primaryStage.setHeight(FEED_HEIGHT + ARM_WIDTH);
+					primaryStage.setHeight(FEED_HEIGHT);
 					primaryStage.show();
 				}
 			}

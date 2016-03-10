@@ -29,7 +29,7 @@ public class MockGUI extends Application{
 		
 		DataServerWebClient client = new DataServerWebClient(new URL(URL));
 		client.pushSchema(ArmStatus.ARM_STATUS_SCHEMA);
-		ArmStatus arm = new ArmStatus("test_arm", client);
+		ArmStatus arm = new ArmStatus(client);
 		
 		ArmDisplay display = new ArmDisplay(600, 500);
 		mainPane.add(display, 0, 0);

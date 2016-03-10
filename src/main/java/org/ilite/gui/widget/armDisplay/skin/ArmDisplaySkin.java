@@ -166,7 +166,7 @@ public class ArmDisplaySkin extends SkinBase<ArmDisplay> {
 		if(destinationAnimation != null){
 			destinationAnimation.stop();
 		}
-		destinationAnimation = new Timeline(new KeyFrame(Duration.millis(100), new KeyValue(destinationXRepresentationProperty, getSkinnable().getDestinationX()),
+		destinationAnimation = new Timeline(new KeyFrame(Duration.millis(50), new KeyValue(destinationXRepresentationProperty, getSkinnable().getDestinationX()),
 				                                                               new KeyValue(destinationYRepresentationProperty, getSkinnable().getDestinationY())));
 		destinationAnimation.play();
 	}
@@ -215,7 +215,7 @@ public class ArmDisplaySkin extends SkinBase<ArmDisplay> {
 	
 	public void updateArm() {
 		if(polylineAnimation != null)polylineAnimation.stop();
-		polylineAnimation = new Timeline(new KeyFrame(Duration.millis(500), new KeyValue(alphaRepresentationProperty, getSkinnable().getAlpha()), new KeyValue(betaRepresentationProperty, getSkinnable().getBeta())));
+		polylineAnimation = new Timeline(new KeyFrame(Duration.millis(250), new KeyValue(alphaRepresentationProperty, getSkinnable().getAlpha()), new KeyValue(betaRepresentationProperty, getSkinnable().getBeta())));
 		polylineAnimation.play();
 	}
 

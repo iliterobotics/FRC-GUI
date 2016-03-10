@@ -4,6 +4,9 @@ import java.io.File;
 import java.util.Arrays;
 import java.util.List;
 
+import javafx.animation.KeyFrame;
+import javafx.animation.KeyValue;
+import javafx.animation.Timeline;
 import javafx.application.Application;
 import javafx.beans.InvalidationListener;
 import javafx.beans.property.DoubleProperty;
@@ -20,20 +23,18 @@ import javafx.scene.input.MouseEvent;
 import javafx.scene.paint.Color;
 import javafx.scene.paint.PhongMaterial;
 import javafx.scene.shape.MeshView;
-import javafx.scene.shape.Sphere;
 import javafx.scene.transform.Rotate;
-import javafx.scene.transform.Translate;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
+import javafx.util.Duration;
 
 import com.interactivemesh.jfx.importer.obj.ObjModelImporter;
 
 public class RenderShooter extends Application {
 
-	private static final String MESH_FILENAME = "C:/Users/Michael/Desktop/shooterhead.obj";
-	private static final String BALL_FILENAME = "C:/Users/Michael/Desktop/ball.obj";
+	private static final String MESH_FILENAME = "res/meshes/shooterhead.obj";
+	private static final String BALL_FILENAME = "res/meshes/ball.obj";
 
-	private static final double MODEL_SCALE_FACTOR = 1;
 	private static final double MODEL_X_OFFSET = 0; // standard
 	private static final double MODEL_Y_OFFSET = -100; // standard
 
@@ -42,6 +43,7 @@ public class RenderShooter extends Application {
 	private static final Color ballColor = Color.RED;
 
 	private final int VIEWPORT_SIZE;
+	private final double MODEL_SCALE_FACTOR;
 	
 	private Stage stage;
 	private Group root;
@@ -51,8 +53,14 @@ public class RenderShooter extends Application {
 	private DoubleProperty yRotateProperty;
 	private DoubleProperty zRotateProperty;
 	
+	private DoubleProperty xRotateRepresentationProperty;
+	private DoubleProperty yRotateRepresentationProperty;
+	private DoubleProperty zRotateRepresentationProperty;
+	
 	private MeshView[] shooterMeshes;
 	private MeshView[] ballMeshes;
+	
+	private Timeline animation;
 	
 	private boolean isBallVisable;
 
@@ -60,10 +68,12 @@ public class RenderShooter extends Application {
 
 	public RenderShooter() {
 		VIEWPORT_SIZE = 400;
+		MODEL_SCALE_FACTOR = 1;
 	}
 
 	public RenderShooter(Stage givenStage, int size) {
 		VIEWPORT_SIZE = size;
+		MODEL_SCALE_FACTOR = VIEWPORT_SIZE / 400.0;
 		start(givenStage);
 	}
 
@@ -110,11 +120,30 @@ public class RenderShooter extends Application {
 	    yRotateProperty = new SimpleDoubleProperty(0);
 	    zRotateProperty = new SimpleDoubleProperty(0);
 	    
+	    InvalidationListener animateRotation = observable ->{
+	    	if(animation != null){
+	    		animation.stop();
+	    	}
+	    	animation = new Timeline(new KeyFrame(Duration.millis(100), new KeyValue(xRotateRepresentationProperty, xRotateProperty.get()),
+	    																new KeyValue(yRotateRepresentationProperty, yRotateProperty.get()),
+	    																new KeyValue(zRotateRepresentationProperty, zRotateProperty.get())));
+	    	animation.play();
+	    };
+	    
+	    xRotateProperty.addListener(animateRotation);
+	    yRotateProperty.addListener(animateRotation);
+	    zRotateProperty.addListener(animateRotation);
+	    
+	    
+	    xRotateRepresentationProperty = new SimpleDoubleProperty(0);
+	    yRotateRepresentationProperty = new SimpleDoubleProperty(0);
+	    zRotateRepresentationProperty = new SimpleDoubleProperty(0);
+	    
 	    InvalidationListener changeRotation = observable -> {
 	    	List<Rotate> rotations = Arrays.asList(new Rotate[] {
-	    			new Rotate(xRotateProperty.get(), Rotate.X_AXIS),
-					new Rotate(yRotateProperty.get(), Rotate.Y_AXIS),
-					new Rotate(zRotateProperty.get(), Rotate.Z_AXIS)});
+	    			new Rotate(xRotateRepresentationProperty.get(), Rotate.X_AXIS),
+					new Rotate(yRotateRepresentationProperty.get(), Rotate.Y_AXIS),
+					new Rotate(zRotateRepresentationProperty.get(), Rotate.Z_AXIS)});
     		
 	    	for(MeshView meshView: shooterMeshes){
 	    		meshView.getTransforms().setAll(rotations);
@@ -124,9 +153,9 @@ public class RenderShooter extends Application {
 	    	}
 	    };
 	      
-	    xRotateProperty.addListener(changeRotation);
-	    yRotateProperty.addListener(changeRotation);
-	    zRotateProperty.addListener(changeRotation);
+	    xRotateRepresentationProperty.addListener(changeRotation);
+	    yRotateRepresentationProperty.addListener(changeRotation);
+	    zRotateRepresentationProperty.addListener(changeRotation);
 	    
 	    
 
@@ -171,7 +200,7 @@ public class RenderShooter extends Application {
 			}
 	    });
 
-	    showBall(false);
+	    showBall(true);
 	    
 	    return root;
 	  }
@@ -190,10 +219,6 @@ public class RenderShooter extends Application {
 	@Override
 	public void start(Stage primaryStage) {
 		Group group = buildScene();
-		double scale = 1;
-		group.setScaleX(scale);
-		group.setScaleY(scale);
-		group.setScaleZ(scale);
 
 		Scene scene = new Scene(group, VIEWPORT_SIZE, VIEWPORT_SIZE, true);
 		scene.setFill(Color.TRANSPARENT);

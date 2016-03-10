@@ -26,6 +26,8 @@ public class Shooter3D extends Control{
 	public Shooter3D(int size, Color backgroundColor, Stage primaryStage, double xOffset, double yOffset){
 		tiltProperty = new SimpleDoubleProperty();
 		twistProperty = new SimpleDoubleProperty();
+		
+		
 		setWidth(size);
 		setHeight(size);
 		this.backgroundColor = backgroundColor;
@@ -33,6 +35,7 @@ public class Shooter3D extends Control{
 		xoff = xOffset;
 		yoff = yOffset;
 
+		primaryStage.sceneProperty().addListener(observable -> updatePosition());
 		primaryStage.xProperty().addListener(observable -> updatePosition());
 		primaryStage.yProperty().addListener(observable -> updatePosition());
 		
@@ -44,12 +47,17 @@ public class Shooter3D extends Control{
 		});
 		shooterRender = new RenderShooter(shooterStage, size);
 		
+		tiltProperty.addListener(observable -> shooterRender.setYRotation(getTwistProperty().get()));
+		twistProperty.addListener(observable -> shooterRender.setXRotation(getTiltProperty().get()));
+		
 		updatePosition();
 	}
 	
 	private void updatePosition(){
-		shooterRender.getStage().setX(primaryStage.getX() + getLayoutX() + xoff);
-		shooterRender.getStage().setY(primaryStage.getY() + getLayoutY() + yoff);
+		if(primaryStage.getScene() != null){
+			shooterRender.getStage().setX(primaryStage.getX() + xoff);
+			shooterRender.getStage().setY(primaryStage.getY() + yoff);
+		}
 	}
 	
 	public Color getBackgroundColor(){
