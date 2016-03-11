@@ -30,6 +30,7 @@ public class ConfigureAutonomous extends Application{
 	private static final int DEF_WIDTH = 750, DEF_HEIGHT = 150;
 	
 	private GridPane mainPane;
+	private Button doNothing;
 	private Button pushConfig;
 	private Scene scene;
 	private ComboBox<Integer> positionBox;
@@ -104,6 +105,17 @@ public class ConfigureAutonomous extends Application{
 			delayText.setText("Delay:" + (int)(delay.getValue()/100) / 10.0 + "s");
 		});
 		
+		
+		doNothing = new Button("Do Nothing");
+		doNothing.getStyleClass().setAll("push-config");
+		doNothing.setOnAction(push -> {
+			positionBox.setValue(1);
+			goalBox.setValue(AutonomousConfig.getGoalName(AutonomousConfig.HIGH_CENTER_GOAL));
+			config.setDoingNothing(true);
+			pushConfig.fire();
+		});
+		
+		
 		//sets up button which updates all of the values of the configuration and pushes it
 		pushConfig = new Button("Push Configuration");
 		pushConfig.getStyleClass().setAll("push-config");
@@ -147,6 +159,7 @@ public class ConfigureAutonomous extends Application{
 		mainPane.getStyleClass().setAll("grid-pane");
 		mainPane.addRow(0, positionBox, defenseBox, goalBox, new VBox(delayText, delay));
 		mainPane.add(pushConfig, 3, 1);
+		mainPane.add(doNothing, 2, 1);
 		
 		//sets up a property bound to the css id of the push-button
 		pushButtonStatus = new SimpleStringProperty(null);
