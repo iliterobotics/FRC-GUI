@@ -30,7 +30,6 @@ public class ConfigureAutonomous extends Application{
 	private static final int DEF_WIDTH = 750, DEF_HEIGHT = 150;
 	
 	private GridPane mainPane;
-	private Button doNothing;
 	private Button pushConfig;
 	private Scene scene;
 	private ComboBox<Integer> positionBox;
@@ -66,6 +65,12 @@ public class ConfigureAutonomous extends Application{
 		
 		//check to make sure that if low-bar is selected only position can be one, and if anything else is selected position is not 1
 		defenseBox.setOnAction(check -> { 
+			if(defenseBox.getValue() != null && defenseBox.getValue().equals(AutonomousConfig.getDefenseName(AutonomousConfig.NOTHING))){
+				config.setDoingNothing(true);
+			}
+			else{
+				config.setDoingNothing(false);
+			}
 			if(defenseBox.getValue() != null && defenseBox.getValue().equals(AutonomousConfig.getDefenseName(AutonomousConfig.LOW_BAR))){
 				if(positionBox.getValue() == null || !positionBox.getValue().equals(1)){
 					positionBox.setValue(1);
@@ -95,6 +100,14 @@ public class ConfigureAutonomous extends Application{
 		goalBox = new ComboBox<String>();
 		goalBox.getItems().addAll(AutonomousConfig.getGoalNameMap().keySet());
 		goalBox.setPromptText("goal");
+		goalBox.setOnAction(check -> {
+			if(goalBox.getValue().equals(AutonomousConfig.getGoalName(AutonomousConfig.NONE))){
+				config.setShooting(false);
+			}
+			else{
+				config.setShooting(true);
+			}
+		});
 		
 		//sets up slider for delay and text to display current delay value
 		delayText = new Text("Delay:0.0s");
@@ -104,17 +117,6 @@ public class ConfigureAutonomous extends Application{
 		delay.valueProperty().addListener(observable -> {
 			delayText.setText("Delay:" + (int)(delay.getValue()/100) / 10.0 + "s");
 		});
-		
-		
-		doNothing = new Button("Do Nothing");
-		doNothing.getStyleClass().setAll("push-config");
-		doNothing.setOnAction(push -> {
-			positionBox.setValue(1);
-			goalBox.setValue(AutonomousConfig.getGoalName(AutonomousConfig.HIGH_CENTER_GOAL));
-			config.setDoingNothing(true);
-			pushConfig.fire();
-		});
-		
 		
 		//sets up button which updates all of the values of the configuration and pushes it
 		pushConfig = new Button("Push Configuration");
@@ -159,7 +161,6 @@ public class ConfigureAutonomous extends Application{
 		mainPane.getStyleClass().setAll("grid-pane");
 		mainPane.addRow(0, positionBox, defenseBox, goalBox, new VBox(delayText, delay));
 		mainPane.add(pushConfig, 3, 1);
-		mainPane.add(doNothing, 2, 1);
 		
 		//sets up a property bound to the css id of the push-button
 		pushButtonStatus = new SimpleStringProperty(null);
@@ -167,6 +168,12 @@ public class ConfigureAutonomous extends Application{
 			pushConfig.setId(pushButtonStatus.get());		
 		});
 		
+		defenseBox.setValue(AutonomousConfig.getDefenseName(AutonomousConfig.NOTHING));
+		config.setDoingNothing(true);
+		goalBox.setValue(AutonomousConfig.getGoalName(AutonomousConfig.NONE));
+		config.setShooting(false);
+		positionBox.setValue(2);
+		config.setPosition(2);
 		//sets up the scene with the default
 		scene = new Scene(mainPane, DEF_WIDTH, DEF_HEIGHT);
 		scene.getStylesheets().add("/org/ilite/autoconfiguration/dropdown.css");
