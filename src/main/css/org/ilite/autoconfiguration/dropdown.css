@@ -10,7 +10,7 @@
 }
 
 .spinner{
-	-fx-background-color: whitesmoke;
+	-fx-background-color:red;
 }
 .spinner  .increment-arrow-button, .spinner  .decrement-arrow-button{
 	-fx-background-color:white;

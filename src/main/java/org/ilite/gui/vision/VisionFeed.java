@@ -1,6 +1,9 @@
 package org.ilite.gui.vision;
 
 import java.awt.image.BufferedImage;
+import java.io.IOException;
+import java.net.HttpURLConnection;
+import java.net.URL;
 import java.util.ArrayList;
 
 import javafx.application.Application;
@@ -56,11 +59,31 @@ public class VisionFeed extends Application implements ITowerListener, Runnable{
 		frames = new ArrayList<BufferedImage>();
 		DataServerWebClient client = new DataServerWebClient(WEB_SERVER_URL);
 		db = new CameraFeedDatabase(client, MONGO_URL, DEFAULT_BUCKET, session);
-		if(camera){
-			pullCameraFeed();
-		}
-		else{
-			pullDatabaseFeed();
+//		if(camera){
+//			pullCameraFeed();
+//		}
+//		else{
+//			pullDatabaseFeed();
+//		}
+	}
+	
+	public void openCameraFeed(){
+		pullCameraFeed();
+	}
+	
+	public void closeCameraFeed(){
+		cameraConnection.destroy();
+	}
+	
+	public boolean testCamera(){
+		try{
+			HttpURLConnection connection = (HttpURLConnection) new URL(ECameraType.FIELD_CAMERA.getCameraIP()).openConnection();
+			connection.setConnectTimeout(10);
+			connection.connect();
+			return true;
+		}catch(IOException e){
+			System.err.println("unable to find camera @" + ECameraType.FIELD_CAMERA.getCameraIP());
+			return false;
 		}
 	}
 	

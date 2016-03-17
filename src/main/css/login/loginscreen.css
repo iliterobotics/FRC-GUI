@@ -1,0 +1,65 @@
+.middle-line{
+	-fx-fill: radial-gradient(center 50% 50%, radius 100%, #210A42 0%, transparent 50%);
+}
+.root-hbox{
+	-fx-padding: 10;
+	-fx-spacing: 30;
+	-fx-alignment: center-left;
+	-fx-background-color: linear-gradient(from 50% 0% to 50% 100%, #7951A1 0%, #412A62 100%);
+}
+.combo-box-base .arrow-button{
+	-fx-background-color: #74BB3E;
+}
+.combo-box-base .arrow-button:hover{
+	-fx-background-color: #449B1E;
+}
+
+.right-vbox{
+	-fx-spacing: 20;
+	-fx-alignment: center-left;
+}
+
+.spinner{
+	-fx-effect: innershadow(gaussian, black, 10, 0, 0, 0);
+	-fx-background-color: whitesmoke;
+}
+.spinner  .increment-arrow-button, .spinner  .decrement-arrow-button{
+	-fx-background-insets:0;
+	-fx-background-color: #74BB3E;
+}
+.spinner  .increment-arrow-button:hover, .spinner  .decrement-arrow-button:hover{
+	-fx-background-color: #449B1E;
+}
+
+.list-view{
+	-fx-padding:0;
+	-fx-background-color: transparent;
+}
+.list-view .list-cell:hover{
+	-fx-text-fill:#333333;	
+}
+.list-view .list-cell{
+	-fx-effect:null;
+	-fx-background-color:white;
+	-fx-text-fill:black;
+	-fx-background-insets:0;
+}
+
+.list-view .list-cell:even{
+	-fx-background-color:#AAAAAA;
+	-fx-text-fill: black;
+}
+.start{
+	-fx-background-color: white;	
+	-fx-padding:5;
+	-fx-background-radius: 5;
+	-fx-font-size: 20;
+	-fx-text-fill: black;
+}
+.start:hover{
+	-fx-background-color: #AAFFAA;	
+	-fx-padding:5;
+	-fx-background-radius: 5;
+	-fx-font-size: 20;
+	-fx-text-fill: black;
+}
