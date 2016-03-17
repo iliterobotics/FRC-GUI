@@ -55,7 +55,7 @@ public class AppMain extends Application{
 			public void handle(KeyEvent arg0) {
 				if(arg0.getCode() == KeyCode.ENTER){
 					primaryStage.hide();
-					DataServerWebClient client = new DataServerWebClient("http://localhost:8083");
+					DataServerWebClient client = new DataServerWebClient("http://localhost:5800");
 
 					ArmDisplay armRepresentation = new ArmDisplay(ARM_WIDTH, ARM_HEIGHT);
 					ArmDataDriver driver = new ArmDataDriver(client, new ArmStatus(client), armRepresentation);

@@ -27,7 +27,7 @@ public class VisionFeed extends Application implements ITowerListener, Runnable{
 
 	private static final int FPS = 30;
 	private static final String MONGO_URL = "localhost";
-	private static final String WEB_SERVER_URL = "http://localhost:8083";
+	private static final String WEB_SERVER_URL = "http://localhost:5800";
 	
 	private ArrayList<BufferedImage> frames;
 	private CameraFeedDatabase db;

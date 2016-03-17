@@ -24,7 +24,7 @@ import dataclient.robotdata.autonomous.AutonomousConfig;
 public class ConfigureAutonomous extends Application{
 	
 	/**DEFAULT URL OF WEBSERVER*/
-	private static final String URL = "http://localhost:8083";
+	private static final String URL = "http://localhost:5800";
 	
 	/**DEFAULT WIDTH AND HEIGHT*/
 	private static final int DEF_WIDTH = 750, DEF_HEIGHT = 150;
