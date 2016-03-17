@@ -1,0 +1,8 @@
+{
+	"events":[
+	{"name":"Portsmouth",
+	 "matches":[1,4,7,10]},
+	{"name":"Regionals",
+	 "matches":[1,3,5,2]},
+	]
+}
