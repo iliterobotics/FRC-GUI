@@ -105,12 +105,11 @@ public class MainPanel {
 		startCamera.setOnAction(observable -> {
 			if(startCamera.isSelected()){
 				startCamera.setText("Camera On");
-				visionDriver.enableStreaming(true);
-				startCamera.fire();
+				vision.openCameraFeed();
 			}
 			else{
 				startCamera.setText("Camera Off");
-				visionDriver.enableStreaming(false);
+				vision.closeCameraFeed();
 			}
 		});
 		
