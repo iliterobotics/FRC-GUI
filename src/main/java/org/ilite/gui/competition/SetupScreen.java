@@ -10,6 +10,9 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
+import javafx.beans.InvalidationListener;
+import javafx.beans.property.ObjectProperty;
+import javafx.beans.property.SimpleObjectProperty;
 import javafx.collections.FXCollections;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
@@ -34,12 +37,16 @@ public class SetupScreen{
 	
 	private Spinner<Integer> matchNumberSpinner;
 	private ComboBox<String> eventDropdown;
+	
+	private ObjectProperty<String> sessionProperty;
 
 	private Map<String, Set<Integer>> eventMap;
 	
 	private Button done;
 	
 	public SetupScreen() {
+		sessionProperty = new SimpleObjectProperty<String>();
+		
 		root = new HBox();
 		root.getStyleClass().add("root-hbox");
 		right = new VBox();
@@ -71,7 +78,22 @@ public class SetupScreen{
 		
 		done = new Button("START");
 		done.getStyleClass().add("start");
-		done.setOnAction(observable -> {});
+		done.setOnAction(observable -> {switch(sessionTypeDropdown.getValue()){
+			case MATCH:
+				sessionProperty.set(eventDropdown.getValue() + matchNumberSpinner.getValue());
+				break;
+			default:
+				sessionProperty.set("test");
+		}
+		});
+	}
+	
+	public void onSessionSelected(InvalidationListener l){
+		sessionProperty.addListener(l);
+	}
+	
+	public String getSessionName(){
+		return sessionProperty.get();
 	}
 	
 	public Map<String, Set<Integer>> getEventMap(){

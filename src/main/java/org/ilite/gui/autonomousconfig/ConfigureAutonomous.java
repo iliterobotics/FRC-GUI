@@ -179,6 +179,10 @@ public class ConfigureAutonomous extends Application{
 		scene.getStylesheets().add("/org/ilite/autoconfiguration/dropdown.css");
 	}
 	
+	public Node getAutonomousConfig(){
+		return mainPane;
+	}
+	
 	public void wobble(Node n){
 		RotateTransition rt = new RotateTransition(Duration.millis(100), n);
 		rt.setToAngle(10);

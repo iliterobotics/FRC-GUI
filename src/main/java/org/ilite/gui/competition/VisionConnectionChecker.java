@@ -49,6 +49,11 @@ public class VisionConnectionChecker implements Runnable{
 			case NOT_FOUND:
 				FEED.closeCameraFeed();
 		}
+		try {
+			Thread.sleep(250);
+		} catch (InterruptedException e) {
+			running = false;
+		}
 	}
 	
 	public VisionConnectionStatus getStatus(){

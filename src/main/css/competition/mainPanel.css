@@ -1,0 +1,60 @@
+.root{
+	-fx-padding: 20;
+	-fx-spacing: 30;
+	-fx-alignment: center-left;
+	-fx-background-color: linear-gradient(from 50% 0% to 50% 100%, #7951A1 0%, #412A62 100%);
+	-fx-hgap: 10;
+}
+*{
+	-fx-spacing:5;
+}
+.port{
+	-fx-font-size: 15;
+	-fx-font-family:'Consolas';
+}
+#open.port{
+	-fx-fill: green;
+}
+#closed.port{
+	-fx-fill: red;
+}
+.port-label{
+	-fx-font-size:30;
+	-fx-font-family:'Calibri';
+	-fx-fill: black;
+}
+.port-box{
+	-fx-background-color: black;
+}
+.vision-background{
+	-fx-background-color:rgba(0, 0, 0, 100);
+}
+.indent{
+	-fx-effect: innershadow(gaussian, black, 10, 0, 0, 0);
+}
+.outdent{
+	-fx-effect: dropshadow(gaussian, black, 10, 0, 0, 0);
+}
+.camera-button{
+	-fx-font-size: 30;
+	-fx-background-radius:3;
+	-fx-padding:3;
+	-fx-background-color: white;
+	-fx-text-fill:black;
+	-fx-font-family:'Calibri';
+}
+.camera-button:hover{
+	-fx-background-color: #CCCCCC;
+}
+#found.camera-button{
+	-fx-text-fill:black;
+	-fx-fill:black;
+}
+#on.camera-button{
+	-fx-text-fill:green;
+	-fx-fill:green;
+}
+#not-found.camera-button{
+	-fx-text-fill:red;
+	-fx-fill:red;
+}

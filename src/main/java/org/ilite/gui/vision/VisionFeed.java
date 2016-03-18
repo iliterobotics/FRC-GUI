@@ -55,6 +55,7 @@ public class VisionFeed extends Application implements ITowerListener, Runnable{
 		imageView.setFitWidth(width);
 		imageView.setFitHeight(height);
 		mainPane = new StackPane(imageView);
+		mainPane.getStyleClass().setAll("vision-background");
 		session = videoSession;
 		frames = new ArrayList<BufferedImage>();
 		DataServerWebClient client = new DataServerWebClient(WEB_SERVER_URL);
@@ -72,17 +73,18 @@ public class VisionFeed extends Application implements ITowerListener, Runnable{
 	}
 	
 	public void closeCameraFeed(){
-		cameraConnection.destroy();
+		if(cameraConnection != null){
+			cameraConnection.destroy();
+		}
 	}
 	
 	public boolean testCamera(){
 		try{
 			HttpURLConnection connection = (HttpURLConnection) new URL(ECameraType.FIELD_CAMERA.getCameraIP()).openConnection();
-			connection.setConnectTimeout(10);
+			connection.setConnectTimeout(1000);
 			connection.connect();
 			return true;
 		}catch(IOException e){
-			System.err.println("unable to find camera @" + ECameraType.FIELD_CAMERA.getCameraIP());
 			return false;
 		}
 	}
