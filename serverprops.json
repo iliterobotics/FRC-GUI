@@ -1,5 +1,5 @@
 {
-"address":"169.254.2.196",
+"address":"localhost",
 "port":443,
 "table_name":"test_table"
 }

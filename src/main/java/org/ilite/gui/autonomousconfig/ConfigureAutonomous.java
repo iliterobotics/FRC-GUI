@@ -22,6 +22,7 @@ import javafx.util.Duration;
 import org.ilite.gui.server.ServerData;
 
 import dataclient.DataClient;
+import dataclient.DataServerWebClient;
 import dataclient.NetworkTablesClient;
 import dataclient.robotdata.autonomous.AutonomousConfig;
 
@@ -49,7 +50,7 @@ public class ConfigureAutonomous extends Application{
 	 */
 	public ConfigureAutonomous(){
 		//sets up server client and autonomous configuration object
-		client = new NetworkTablesClient(ServerData.getTableName(), true);
+		client = new DataServerWebClient(ServerData.getURL());
 		config = new AutonomousConfig(client);
 		
 		mainPane = new GridPane();
