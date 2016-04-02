@@ -15,6 +15,7 @@ import javafx.scene.image.WritableImage;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
 
+import org.ilite.gui.server.ServerData;
 import org.ilite.vision.camera.CameraConnectionFactory;
 import org.ilite.vision.camera.ICameraConnection;
 import org.ilite.vision.constants.ECameraType;
@@ -30,7 +31,6 @@ public class VisionFeed extends Application implements ITowerListener, Runnable{
 
 	private static final int FPS = 30;
 	private static final String MONGO_URL = "localhost";
-	private static final String WEB_SERVER_URL = "http://localhost:5800";
 	
 	private ArrayList<BufferedImage> frames;
 	private CameraFeedDatabase db;
@@ -58,7 +58,7 @@ public class VisionFeed extends Application implements ITowerListener, Runnable{
 		mainPane.getStyleClass().setAll("vision-background");
 		session = videoSession;
 		frames = new ArrayList<BufferedImage>();
-		DataServerWebClient client = new DataServerWebClient(WEB_SERVER_URL);
+		DataServerWebClient client = new DataServerWebClient(ServerData.getURL());
 		db = new CameraFeedDatabase(client, MONGO_URL, DEFAULT_BUCKET, session);
 //		if(camera){
 //			pullCameraFeed();

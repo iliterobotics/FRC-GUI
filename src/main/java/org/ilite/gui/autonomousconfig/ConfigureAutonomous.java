@@ -18,13 +18,14 @@ import javafx.scene.text.Text;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 import javafx.util.Duration;
-import dataclient.DataServerWebClient;
+
+import org.ilite.gui.server.ServerData;
+
+import dataclient.DataClient;
+import dataclient.NetworkTablesClient;
 import dataclient.robotdata.autonomous.AutonomousConfig;
 
 public class ConfigureAutonomous extends Application{
-	
-	/**DEFAULT URL OF WEBSERVER*/
-	private static final String URL = "http://localhost:5800";
 	
 	/**DEFAULT WIDTH AND HEIGHT*/
 	private static final int DEF_WIDTH = 750, DEF_HEIGHT = 150;
@@ -40,7 +41,7 @@ public class ConfigureAutonomous extends Application{
 	
 	private StringProperty pushButtonStatus;
 	
-	private DataServerWebClient client;
+	private DataClient client;
 	private AutonomousConfig config;
 	
 	/**
@@ -48,7 +49,7 @@ public class ConfigureAutonomous extends Application{
 	 */
 	public ConfigureAutonomous(){
 		//sets up server client and autonomous configuration object
-		client = new DataServerWebClient(URL);
+		client = new NetworkTablesClient(ServerData.getTableName(), true);
 		config = new AutonomousConfig(client);
 		
 		mainPane = new GridPane();

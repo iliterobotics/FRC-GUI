@@ -9,9 +9,8 @@ import javafx.stage.Stage;
 
 import org.ilite.gui.drivers.ArmDataDriver;
 import org.ilite.gui.widget.armDisplay.ArmDisplay;
-import org.ilite.gui.widget.shooter.Shooter3D;
 
-import test.Fbot;
+import test.vision.Fbot;
 import dataclient.DataServerWebClient;
 import dataclient.robotdata.arm.ArmStatus;
 
