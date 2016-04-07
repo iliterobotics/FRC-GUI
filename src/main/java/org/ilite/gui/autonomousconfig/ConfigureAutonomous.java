@@ -37,6 +37,7 @@ public class ConfigureAutonomous extends Application{
 	private ComboBox<Integer> positionBox;
 	private ComboBox<String>  defenseBox;
 	private ComboBox<String>  goalBox;
+	private ComboBox<Boolean> returnBox;
 	private Slider delay;
 	private Text delayText;
 	
@@ -112,6 +113,13 @@ public class ConfigureAutonomous extends Application{
 			}
 		});
 		
+		returnBox = new ComboBox<Boolean>();
+		returnBox.getItems().addAll(true, false);
+		returnBox.setPromptText("Returns");
+		returnBox.setOnAction(returns -> {
+			config.setReturns(returnBox.getValue().booleanValue());
+		});
+		
 		//sets up slider for delay and text to display current delay value
 		delayText = new Text("Delay:0.0s");
 		delay = new Slider(0, 10000, 0);
@@ -163,6 +171,7 @@ public class ConfigureAutonomous extends Application{
 		//sets up the main grid pane and inserts all of the Nodes into it
 		mainPane.getStyleClass().setAll("grid-pane");
 		mainPane.addRow(0, positionBox, defenseBox, goalBox, new VBox(delayText, delay));
+		mainPane.add(returnBox, 0, 1);
 		mainPane.add(pushConfig, 3, 1);
 		
 		//sets up a property bound to the css id of the push-button
