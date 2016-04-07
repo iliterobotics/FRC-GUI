@@ -50,6 +50,7 @@ public class ConfigureAutonomous extends Application{
 	 */
 	public ConfigureAutonomous(){
 		//sets up server client and autonomous configuration object
+//		client = new NetworkTablesClient(ServerData.TBL_NAME, true);
 		client = new DataServerWebClient(ServerData.getURL());
 		config = new AutonomousConfig(client);
 		

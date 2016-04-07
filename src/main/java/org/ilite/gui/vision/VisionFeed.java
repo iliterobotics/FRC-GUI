@@ -6,15 +6,6 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.ArrayList;
 
-import javafx.application.Application;
-import javafx.embed.swing.SwingFXUtils;
-import javafx.scene.Node;
-import javafx.scene.Scene;
-import javafx.scene.image.ImageView;
-import javafx.scene.image.WritableImage;
-import javafx.scene.layout.StackPane;
-import javafx.stage.Stage;
-
 import org.ilite.gui.server.ServerData;
 import org.ilite.vision.camera.CameraConnectionFactory;
 import org.ilite.vision.camera.ICameraConnection;
@@ -24,8 +15,18 @@ import com.fauge.robotics.towertracker.ITowerListener;
 import com.fauge.robotics.towertracker.TowerMessage;
 import com.fauge.robotics.towertracker.TowerTracker1885;
 
+import dataclient.DataClient;
 import dataclient.DataServerWebClient;
+import dataclient.NetworkTablesClient;
 import dataclient.robotdata.vision.CameraFeedDatabase;
+import javafx.application.Application;
+import javafx.embed.swing.SwingFXUtils;
+import javafx.scene.Node;
+import javafx.scene.Scene;
+import javafx.scene.image.ImageView;
+import javafx.scene.image.WritableImage;
+import javafx.scene.layout.StackPane;
+import javafx.stage.Stage;
 
 public class VisionFeed extends Application implements ITowerListener, Runnable{
 
@@ -58,7 +59,8 @@ public class VisionFeed extends Application implements ITowerListener, Runnable{
 		mainPane.getStyleClass().setAll("vision-background");
 		session = videoSession;
 		frames = new ArrayList<BufferedImage>();
-		DataServerWebClient client = new DataServerWebClient(ServerData.getURL());
+		DataClient client = new DataServerWebClient(ServerData.getURL());
+//		DataClient client = new NetworkTablesClient(ServerData.TBL_NAME, true);
 		db = new CameraFeedDatabase(client, MONGO_URL, DEFAULT_BUCKET, session);
 //		if(camera){
 //			pullCameraFeed();

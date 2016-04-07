@@ -7,6 +7,7 @@ import org.ilite.vision.data.JSONManager;
 
 public class ServerData {
 	
+	public static final String TBL_NAME = "shooter";
 	private static final String FILENAME = "serverprops.json";
 	private static final String DEF_ADDRESS = "localhost";
 	private static final String DEF_TBLNAME = "no_name";
