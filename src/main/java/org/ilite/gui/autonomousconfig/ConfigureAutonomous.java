@@ -37,7 +37,7 @@ public class ConfigureAutonomous extends Application{
 	private ComboBox<Integer> positionBox;
 	private ComboBox<String>  defenseBox;
 	private ComboBox<String>  goalBox;
-	private ComboBox<Boolean> returnBox;
+	private ComboBox<String> returnBox;
 	private Slider delay;
 	private Text delayText;
 	
@@ -113,11 +113,11 @@ public class ConfigureAutonomous extends Application{
 			}
 		});
 		
-		returnBox = new ComboBox<Boolean>();
-		returnBox.getItems().addAll(true, false);
-		returnBox.setPromptText("Returns");
+		returnBox = new ComboBox<String>();
+		returnBox.getItems().addAll("Return", "Don't Return");
+		returnBox.setValue("Don't Return");
 		returnBox.setOnAction(returns -> {
-			config.setReturns(returnBox.getValue().booleanValue());
+			config.setReturns(returnBox.getValue().equals("Return"));
 		});
 		
 		//sets up slider for delay and text to display current delay value
