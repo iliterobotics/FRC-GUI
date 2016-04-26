@@ -1,7 +1,6 @@
 package org.ilite.gui.competition;
 
 import javafx.scene.Scene;
-import javafx.scene.control.Button;
 import javafx.scene.control.ToggleButton;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.HBox;
@@ -10,15 +9,12 @@ import javafx.scene.text.Text;
 import javafx.stage.Screen;
 import javafx.stage.Stage;
 
-
 import org.ilite.gui.autonomousconfig.ConfigureAutonomous;
-import org.ilite.gui.competition.VisionConnectionChecker.VisionConnectionStatus;
 import org.ilite.gui.drivers.ArmDataDriver;
 import org.ilite.gui.drivers.ShooterDataDriver;
 import org.ilite.gui.vision.VisionFeed;
 import org.ilite.gui.widget.armDisplay.ArmDisplay;
 import org.ilite.gui.widget.shooter.Shooter3D;
-
 
 import dataclient.ConnectionTest;
 import dataclient.DataServerWebClient;

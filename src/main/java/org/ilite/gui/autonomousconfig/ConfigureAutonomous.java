@@ -23,7 +23,6 @@ import org.ilite.gui.server.ServerData;
 
 import dataclient.DataClient;
 import dataclient.DataServerWebClient;
-import dataclient.NetworkTablesClient;
 import dataclient.robotdata.autonomous.AutonomousConfig;
 
 public class ConfigureAutonomous extends Application{
